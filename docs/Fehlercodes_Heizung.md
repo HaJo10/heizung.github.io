@@ -2,9 +2,8 @@
 
 Störungs - Nummer Erklärung
 
-```
-Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
-```
+    Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
+    
 ```
 Störungs-Nummer
 ```
