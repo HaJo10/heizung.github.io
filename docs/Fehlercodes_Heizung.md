@@ -1,6 +1,5 @@
-## Störungsmeldungen
+# Störungsmeldungen
 
-Störungs - Nummer Erklärung
 
     Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
     
@@ -12,9 +11,11 @@ Verursacher
 Ursache/Problem
 Lösung
 ```
+
 ```
 (nach Behebung der Störung ENTER-Taste drücken)
 ```
+
 ```
 Kein Text in der Anzeige
 ```
@@ -518,6 +519,7 @@ Brandschutzklappe öffnet nicht
 
 ```
 0048
+```
 
 * Pufferfühler 2 Unterbrechung
 
@@ -577,6 +579,7 @@ Brandschutzklappe öffnet nicht
 
 ```
 0067
+```
 
 * Fehler Parametersatz,Parameter prüfen
 
@@ -586,6 +589,7 @@ Brandschutzklappe öffnet nicht
 
 ```
 0080
+```
 
 * Übertemperatur Brennstofflager
 
@@ -629,6 +633,7 @@ Brandschutzklappe öffnet nicht
 
 ```
 0085
+```
 
 * Fühler ETÜ Unterbrechung
 
@@ -1069,11 +1074,14 @@ Brandschutzklappe öffnet nicht
     Kurzschluss durch Elektriker beseitigen: Zündgerät (Gebläse, Heizung), Brandschutzklappe oder Pelletssaugturbine überprüfen; Sicherung F23 wechseln (siehe Aufkleber rechte Plexiglasabdeckung); sonst Service verständigen;
 
 ```
-5000..5007 Elektronik
+5000..5007 
 ```
---------------
 
-    Service verständigen; linke Hauptstrom-Platine austauschen
+* Elektronik
+
+    Service verständigen; 
+    
+    linke Hauptstrom-Platine austauschen
 
 ```
 5010
@@ -1089,14 +1097,15 @@ Brandschutzklappe öffnet nicht
 
 ```
 5021
+```
 
 * Phasenfolge Netzzuleitung falsch
 
     die Phasen L1/L2/L3 sind in der Reihenfolge vertauscht
 
-        Elektriker verständigen und Phasenfolge richtig stellen (Phase L2 mit L3 der Netzzuleitung vertauschen); 
+    Elektriker verständigen und Phasenfolge richtig stellen (Phase L2 mit L3 der Netzzuleitung vertauschen); 
         
-        danach muss im Handbetrieb unbedingt die Drehrichtung der Einschubschnecke, Raumaustragungsschnecke sowie Ascheaustragung(en) überprüft werden!
+    danach muss im Handbetrieb unbedingt die Drehrichtung der Einschubschnecke, Raumaustragungsschnecke sowie Ascheaustragung(en) überprüft werden!
 
 ```
 5040 oder 5046
@@ -1155,20 +1164,16 @@ Brandschutzklappe öffnet nicht
 ```
 5100..5107 Elektronik
 ```
---------------
-```
+
+
 ```
 5110..5117 Elektronik
 ```
-```
---------------
-```
+
 ```
 5120..5127 Elektronik
 ```
-```
---------------
-```
+
 ```
 5130
 ```
@@ -1570,7 +1575,7 @@ Brandschutzklappe öffnet nicht
     Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
 
 
-## Verbrennungsstörung Nr. 0029
+## __Verbrennungsstörung Nr. 0029__
 
 Ihre Pelletsanlage ist mit einer automatischen Verbrennungsüberwachung mittels Lambdasonde ausgestattet.
 Eine Verbrennungsstörung liegt vor wenn der CO²-Wert länger als 5min (Service-Par.Nr.S5) unter 5% (Service-
@@ -1580,91 +1585,67 @@ fehlgeschlagen hat. Es wird die "Störung Nr.0029 Verbrennungsstörung" angezeig
 mögliche Ursachen:
 ------------------
 
-- Zwischenbehälter leer......................................... defekter Füllstandsmelder (falsche oder zu wenig Saugzeiten bei RAS)
-- Brückenbildung im Zwischenbehälter.................. Fremdkörper od. zuviel Staub im Zwischenbehälter
-- Einschubmotor läuft retour................................... Einschubmotor defekt (Kondensator)
-- Brennraum überfüllt............................................ Zündung defekt
+- Zwischenbehälter leer
+    
+    defekter Füllstandsmelder (falsche oder zu wenig Saugzeiten bei RAS)
+- Brückenbildung im Zwischenbehälter
+    
+    Fremdkörper od. zuviel Staub im Zwischenbehälter
+- Einschubmotor läuft retour
+
+    Einschubmotor defekt (Kondensator)
+- Brennraum überfüllt
+
+    Zündung defekt
 
 
 Um die Ursache festzustellen bzw. beheben zu können, müssen Sie wie folgt vorgehen:
 -----------------------------------------------------------------------------------
-    1. Aschenlade entnehmen und Kontrollblech einschieben
-    2. Die Störungsanzeige durch drücken der "Enter" Taste bestätigen (Anzeige blinkt). In Wahlschalterstellung
-HAND Nr.2 solange die +Taste drücken, bis der Schieberost komplett geöffnet ist. Dann kontrollieren sie,
+
+1. Aschenlade entnehmen und Kontrollblech einschieben
+
+2. Die Störungsanzeige durch drücken der "Enter" Taste bestätigen (Anzeige blinkt). 
+
+    In Wahlschalterstellung
+HAND Nr.2 solange die +Taste drücken, bis der Schieberost komplett geöffnet ist. 
+
+    Dann kontrollieren sie,
 ob die Brennkammer mit Pellets überfüllt war, wenn ja, dann weiter mit Punkt "Brennkammer überfüllt".
-    3. In Wahlschalterstellung HAND Nr.4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig
-öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
 
-keine Pelletsförderung:
------------------------
-a Überprüfen Sie ob Pellets im Zwischenbehälter sind:
-  ---------------------------------------------------
-Bei Sauganlagen durch klopfen auf den Zwischenbehälter (oder mit einer Taschenlampe durch die
-Schaulöcher am Deckel). Es sind keine Pellets im Zwischenbehälter: Füllstandsmelder auf seine Funktion
-(voll = Licht leuchtet, leer = Licht ist aus) überprüfen. Es müssen der Zwischenbehälter und die
-Einschubschnecke neu befüllt werden (siehe Punkt c. "Füllen").
+3. In Wahlschalterstellung HAND Nr.4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
 
-b.
-```
-```
-c.
-```
-```
-Brennkammer überfüllt :
-```
-```
+## __keine Pelletsförderung__:
 
-```
-```
-Bei Direktschnecken den Wartungsdeckel der Raumschnecke öffnen. Wenn das Übergangsstück leer ist,
-in der Wahlschalterstellung Hand Nr.7a die Füllstandsmeldung (leer/voll) sowie am Füllstandsmelder selbst
-die orange Leuchtdiode wie folgt überprüfen: wird am Display "voll" angezeigt und am Füllstandsmelder ist
-kein oranges Licht erkennbar, so ist der Füllstandsmelder defekt, abgesteckt oder das Kabel ist
-unterbrochen(Steckersitz überprüfen, Klemme 14 und 15 kontrollieren, Kabel optisch auf Beschädigungen etc. prüfen). Ist
-kein Fehler feststellbar muss der Füllstandsmelder getauscht werden. Nach der Störungsbehebung müssen
-die Raumschnecke und die Einschubschnecke neu befüllt werden (siehe Punkt c. "Füllen").
-Es sind Pellets im Zwischenbehälter, die Einschubschnecke, der Kettenantrieb und die Zellradschleuse
-drehen sich, aber es werden keine Pellets gefördert:
+__a.__ Überprüfen Sie ob Pellets im Zwischenbehälter sind:
+
+Bei Sauganlagen durch klopfen auf den Zwischenbehälter (oder mit einer Taschenlampe durch die Schaulöcher am Deckel). Es sind keine Pellets im Zwischenbehälter: Füllstandsmelder auf seine Funktion (voll = Licht leuchtet, leer = Licht ist aus) überprüfen. Es müssen der Zwischenbehälter und die Einschubschnecke neu befüllt werden (siehe Punkt c. "Füllen").
+
+__b. Es sind Pellets im Zwischenbehälter__, die Einschubschnecke, der Kettenantrieb und die Zellradschleuse drehen sich, aber es werden keine Pellets gefördert:
+
 Die Pellets fallen aufgrund eines Fremdkörpers oder einer extrem hohen Staubablagerung im
 Zwischenbehälter nicht nach. Den oberen Deckel abschrauben und die Pellets von Hand entleeren. Den
 event. vorhandenen Fremdkörper entfernen bzw. bei extrem hohen Staubablagerungen muss die Pellets-
 Qualität mit dem Pellets-Lieferanten abgeklärt werden. Dann müssen der Zwischenbehälter und die
 Einschubschnecke neu befüllt werden (siehe Punkt c "Füllen").
-Füllen:in Wahlschalterstellung HAND Nr. 7 bzw. Nr.7a die automatische Pelletsförderung mit der +Taste
+
+__c. Füllen:__ in Wahlschalterstellung HAND Nr. 7 bzw. Nr.7a die automatische Pelletsförderung mit der +Taste
 starten, Pellets werden automatisch in den Zwischenbehälter gefördert bis er voll ist. Dann in
 Wahlschalterstellung HAND Nr. 4 (Einschubschnecke) die +Taste solange gedrückt halten bis die Pellets
 auf das Kontrollblech fallen (bei vollkommen leerer Schnecke dauert es ca. 3min) Dann auf
 Wahlschalterstellung "Auto" schalten und die Pelletsanlage starten.
-```
-```
-Wurde der Fehler behoben oder kein Fehler gefunden, in Wahlschalterstellung "Auto", die
-Störung mit "ENTER" quittieren oder die Anlage kurz stromlos schalten.
-ACHTUNG: Die Prüfung Nr.2 muss durchgeführt werden sonst startet die Heizung nicht!
-```
-```
 
-```
-```
-Aschenlade entnehmen und Kontrollblech einschieben.
+## __Pellets werden gefördert:__
 
-```
-```
-Pellets werden gefördert:
-```
-```
+In Wahlschalterstellung "Auto" die Pelletsanlage starten und den Einschubmotor (Kettenantrieb) überprüfen ob er immer nach vor dreht. Dreht der Antrieb zeitweise auch zurück, so hat der Einschubmotor eine Funktionsstörung und muss bei nächster Gelegenheit getauscht werden.
 
-```
-```
-In Wahlschalterstellung "Auto" die Pelletsanlage starten und den Einschubmotor (Kettenantrieb) überprüfen
-ob er immer nach vor dreht. Dreht der Antrieb zeitweise auch zurück, so hat der Einschubmotor eine
-Funktionsstörung und muss bei nächster Gelegenheit getauscht werden.
-```
-```
-Das grüne Zündgebläse aus der Halterung herausziehen (Klemmschraube lockern) und in
-Wahlschalterstellung HAND Nr. 8 durch drücken der +Taste die Zündung überprüfen, ob sie läuft (sonst
-Zündung erneuern) bzw. überprüfen, ob heiße Luft ausströmt ( sonst Heizelement der Zündung erneuern).
-```
-40 HARGASSNER Hackgut-Pellets-Heizung
+## __Brennkammer überfüllt:__
 
-Verbrennungsstörung
+Das grüne Zündgebläse aus der Halterung herausziehen (Klemmschraube lockern) und in Wahlschalterstellung HAND Nr. 8 durch drücken der +Taste die Zündung überprüfen, ob sie läuft (sonst Zündung erneuern) bzw. überprüfen, ob heiße Luft ausströmt ( sonst Heizelement der Zündung erneuern).
+
+
+
+__Wurde der Fehler behoben oder kein Fehler gefunden, in Wahlschalterstellung "Auto", die Störung mit "ENTER" quittieren oder die Anlage kurz stromlos schalten.__
+
+__ACHTUNG: Die Prüfung Nr.2 muss durchgeführt werden sonst startet die Heizung nicht!__
+
 
