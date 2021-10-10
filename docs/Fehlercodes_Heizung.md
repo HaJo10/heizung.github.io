@@ -1347,39 +1347,27 @@ Brandschutzklappe öffnet nicht
 ```
 5160..5167 Elektronik
 ```
-```
---------------
-```
+
 ```
 5170..5177 Elektronik
 ```
-```
---------------
-```
+
 ```
 5180..5187 Elektronik
 ```
-```
---------------
-```
+
 ```
 5200..5207 Elektronik
 ```
-```
---------------
-```
+
 ```
 5210..5217 Elektronik
 ```
-```
---------------
-```
+
 ```
 5220..5227 Elektronik
 ```
-```
---------------
-```
+
 ```
 5230..5237 
 ```
@@ -1394,7 +1382,7 @@ Brandschutzklappe öffnet nicht
 * Raumaustragungsmotor läuft nicht
 
     Sicherungen F14, F15 und F16 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
-```
+
 ```
 5250..5257 
 ```
@@ -1450,330 +1438,172 @@ Brandschutzklappe öffnet nicht
 
     Service verständigen; Flachbandkabelverbindung, Bedieneinheit, rechte I/O-Platine (incl. Busconverter für SM-Modul wenn vorhanden) oder linke HS-Platinen (vordere und hintere bei HSV70S-100S) tauschen
 
-    Kurzschluss bei Primärluftgebläse oder Rücklaufanhebepumpe, Sicherung F10 defekt oder Verbindung zum Gebläse/zur Pumpe unterbrochen oder HS-Platine defekt
-
-    Service verständigen; linke HS-Platine austauschenKurzschluss bei Primärluftgebläse oder Rücklaufanhebepumpe entfernen; Sicherung F10 überprüfen und eventuell wechseln (siehe Aufkleber);
-
-    Verbindung zum Motor herstellen; kann der Fehler dadurch nicht behoben werden oder läuft das Gebläse bzw. die Pumpe dauernd, ist die linke HS-
-```
-```
-Entsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen.Den Stecker des als defekt angezeigten Motors ( auf der HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andPlatine zu tauschen bzw. der Service zu verständigen; (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
-```
-```
-ere Störung ist
-```
-```
-der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu vers
-```
-```
-tändigen;
-```
-```
-( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )entsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber); L1 des Motorkabels überprüfen;Nulleiter am Motor-Sternpunkt bzw. an der Nulleiterschiene anschließen (unbedingt 5-adriges Kabel verwenden!);den Stecker des als defekt angezeigten Motors (auf der linken HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt ein
-```
-```
-e andere Störung
-```
-```
-ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu
-```
-```
-verständigen;
-```
-```
-(kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
-```
-```
-Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
-```
-St
-
-örungsmeldungen
-
-
-## SStörungsmeldungentörungsmeldungen
-
-Störungs - Nummer Erklärung
-
-Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
-
-```
-Störungs-Numme
-```
-```
-r
-```
-```
-Verursacher
-```
-```
-Ursache/Problem
-```
-```
-Lösung
-```
-```
-(nach Behebung der Störung ENTER-Taste drücken)
-```
+ 
 ```
 6002
 ```
-```
-Datenübertragung zur linken HS-Platine Sicherung F20 oder linke HS-Platine defekt,
-```
-```
-oder Flachbandkabelverbindung oder Bedieneinheit defekt
-```
-```
-ist die Sicherung F20 defekt (grüne Lampe H2 auf linker HS-Platine leuchtet nicht), dann neue Sicherung einsetzen, sonst linke
-```
-```
-HS-Platine,
-```
-```
-Flachbandkabel oder Bedieneinheit tauschen; war die Sicherung F20 defekt bzw. nach HS-Platinentausch sofort die Lambdasondenhei
-```
-```
-zung in
-```
-```
-Wahlschalter Hand Nr.34 mit Messgerät prüfen dh. die + Taste drücken und zwischen Klemme 16 und 17 die Spannung (Soll 5 - 12 VA
-```
-```
-C) und die
-```
-```
-Stromaufnahme (Soll 1,0 - 3 A AC) messen; ist der Wert unter 5 VAC oder über 4 A AC ist die Lambdasonde defekt und muss getausc
-```
-```
-ht werden; die
-```
-```
-Anlage kann Überbrückungsweise in der Installateur-Einstellungen Nr.D4 auf " ohne Lambda" parametriert werden bis die Sonde get
-```
-```
-auscht ist;
-```
+
+* Datenübertragung zur linken HS-Platine Sicherung F20 oder linke HS-Platine defekt, oder Flachbandkabelverbindung oder Bedieneinheit defekt
+
+    ist die Sicherung F20 defekt (grüne Lampe H2 auf linker HS-Platine leuchtet nicht), dann neue Sicherung einsetzen, sonst linke HS-Platine, Flachbandkabel oder Bedieneinheit tauschen; 
+    war die Sicherung F20 defekt bzw. nach HS-Platinentausch sofort die Lambdasondenheizung in Wahlschalter Hand Nr.34 mit Messgerät prüfen dh. die + Taste drücken und zwischen Klemme 16 und 17 die Spannung (Soll 5 - 12 VAC) und die Stromaufnahme (Soll 1,0 - 3 A AC) messen; ist der Wert unter 5 VAC oder über 4 A AC ist die Lambdasonde defekt und muss getauscht werden; 
+    die Anlage kann Überbrückungsweise in der Installateur-Einstellungen Nr.D4 auf " ohne Lambda" parametriert werden bis die Sonde getauscht ist;
+
 ```
 6003
 ```
-```
-Datenübertragung zur unteren (teilbestückten) HS-Platinenur bei HSV70S, 80S, 100S
-```
-```
-Flachbandkabelverbindung oder untere (teilbestückten) HS-Platine defekt
-```
-```
-Service verständigen; untere (teilbestückte) linke HS-Platine austauschen
-```
+
+* Datenübertragung zur unteren (teilbestückten) HS-Platinenur bei HSV70S, 80S, 100S
+
+    Flachbandkabelverbindung oder untere (teilbestückten) HS-Platine defekt
+
+    Service verständigen; untere (teilbestückte) linke HS-Platine austauschen
+
 ```
 6004
 ```
-```
-Datenübertragung zur SM-Platine
-```
-```
-Busconverter Platinen, rechte I/O-Platine oder SM-Platine defekt; Buskabel zum SM-Modul unterbrochen; Stromversorgung SM-Modul unterbrochen
-```
-```
-Service verständigen; Busconverter Platinen (auf der rechten I/O-Platine oder auf dem SM-Platine) tauschen; Buskabel zum SM-Mod
-```
-```
-ul überprüfen;
-```
-```
-Stromversorgung des SM-Moduls überprüfen
-```
+
+* Datenübertragung zur SM-Platine
+
+    Busconverter Platinen, rechte I/O-Platine oder SM-Platine defekt; Buskabel zum SM-Modul unterbrochen; Stromversorgung SM-Modul unterbrochen
+
+    Service verständigen; Busconverter Platinen (auf der rechten I/O-Platine oder auf dem SM-Platine) tauschen; Buskabel zum SM-Modul überprüfen;
+
+    Stromversorgung des SM-Moduls überprüfen
+
 ```
 6101
 ```
-```
-Software-Version rechte I/O-Platine falsch
-```
-```
-rechte I/O-Platine ist zur verwendeten Software nicht kompatibel
-```
-```
-Service verständigen, I/O-Platine austauschen
-```
+
+* Software-Version rechte I/O-Platine falsch
+
+    rechte I/O-Platine ist zur verwendeten Software nicht kompatibel
+
+    Service verständigen, I/O-Platine austauschen
+
 ```
 6102
 ```
-```
-Software-Version linke HS-Platine falsch linke HS-Platine ist zur verwendeten Software
-```
-```
-nicht kompatibel
-```
-```
-Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung); Service verständigen; HS-Platine austa
-```
-```
-uschen
-```
+
+* Software-Version linke HS-Platine falsch linke HS-Platine ist zur verwendeten Software nicht kompatibel
+
+    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung); Service verständigen; HS-Platine austauschen
+
 ```
 6103
 ```
-```
-Software-Version der unteren (teilbestückten) HS-Platine falschnur bei HSV70S, 80S, 100S
-```
-```
-teilbestückte HS-Platine ist zur verwendeten Software nicht kompatibel
-```
-```
-Service verständigen; teilbestückte HS-Platine austauschen
-```
+
+* Software-Version der unteren (teilbestückten) HS-Platine falschnur bei HSV70S, 80S, 100S
+
+    teilbestückte HS-Platine ist zur verwendeten Software nicht kompatibel
+
+    Service verständigen; teilbestückte HS-Platine austauschen
+
 ```
 6104
 ```
+
+* Software-Version SM-Platine falsch
+
+    SM-Platine ist zur verwendeten Software nicht kompatibel
+
+    Service verständigen; SM-Platine austauschen
+
 ```
-Software-Version SM-Platine falsch
+6200-6207 
 ```
-```
-SM-Platine ist zur verwendeten Software nicht kompatibel
-```
-```
-Service verständigen; SM-Platine austauschen
-```
-```
-6200-6207 L3 erkannt, Kesseltype prüfen
-```
-```
-an einem oder mehreren Motorabgängen ist die Phase L3 belegt obwohl eine einphasig Anlage parametriert wurde
-```
-```
-Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung), bei einphasiger Ausführung darf an der
-```
-```
-HS-Platine
-```
-```
-(Klemmen 9,12,15) nichts angeschlossen werden; Service verständigen; HS-Platine austauschen
-```
+
+* L3 erkannt, Kesseltype prüfen
+
+    an einem oder mehreren Motorabgängen ist die Phase L3 belegt obwohl eine einphasig Anlage parametriert wurde
+
+    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung), bei einphasiger Ausführung darf an der HS-Platine (Klemmen 9,12,15) nichts angeschlossen werden; 
+    
+    Service verständigen; HS-Platine austauschen
+
 ```
 9999
 ```
-```
-Elektronik
-```
-```
-Fehler in der Software (Treiber)
-```
-```
-Service verständigen
-```
+
+* Elektronik
+
+    Fehler in der Software (Treiber)
+
+    Service verständigen
+
 ```
 0000
 ```
-```
-Fehlerpuffer initialisiert
-```
-```
-kein Problem, nur für Protokollzwecke
-```
+
+* Fehlerpuffer initialisiert
+
+    kein Problem, nur für Protokollzwecke
+
 ```
 1000
 ```
-```
-Neustart der Hardware
-```
-```
-kein Problem, nur für Protokollzwecke
-```
-```
-kurzzeitiger Notbetrieb "kein Hardware-Test"
-```
-```
-:Sollte der Fehler eindeutig auf einen Defekt auf der Platine zurückzuführen sein, das heißt die angeschlossenen Komponenten funktionieren einwan
-```
-```
-dfrei, dann kann die Steuerung im kurzzeitigem Notbetrieb
-```
-```
-(bis der Service eintrifft) ohne Hardware-Test betrieben werden.
-```
-```
-1.
-```
-```
-Die Steuerung mittels seitlichem Hauptschalter ausschalten.
-```
-```
-2.
-```
-```
-Die linke untere "Leer"-Taste gedrückt halten, während der Hauptschalter wieder eingeschaltet wird. In der vierten Zeile des
-```
-```
-Display ́s erscheint die Meldung "keine Hardware-Test". Sobald diese Meldung zu lesen ist kann die Taste losgelassen werden und die Steuerung führt k
-```
-```
-einen Selbsttest mehr durch (aber nur bis zur nächsten Stromunterbrechung).Weiters müssen die
-```
-```
-defekten Komponenten im Handbetrieb auf ihre richtige Funktion überprüft werden, um weitere Schäden ausschließen zu können! kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
-```
-```
-:
-```
-```
-Sollte der Fehler nicht behebbar sein, kann bei geschlossenem Rost ein Notbetrieb (bis der Service eintrifft) aktiviert werden.1. in Wahlschalterstellung Hand Nr.2 (Störung mit "Enter"quitieren) und mit der + bzw. - Taste kontrollieren das der Rost geschlo
-```
-```
-ssen ist.
-```
-2. die linke untere "Leer"-Taste kurz drücken ("keine Hardware-Test-Initiator") die Anlage geht auf "Notbetrieb" und führt ab jet
 
-```
-zt 48 Stunden keinen Initiatortest und keine Entaschung mehr durch.
-```
-```
-Die Anzeige "Notbetrieb" steht blinkend am Display und zählt von 48 Stunden nach unten. Nach der Reparatur unbedingt Hauptschal
-```
-```
-ter aus- und wieder einschalten - Notbetrieb wird beendet und Rostüberwachung ist wieder aktiv.
-```
-```
-keine Maßnahmen erforderlich; tritt diese Meldung sehr häufig auf ist der Elektriker zu verständigen (sehr viele Stromausfälle,
-```
-```
-schlechte Klemmstelle
-```
-```
-in der Netzzuleitung, Verbindungen zw. HS und I/O-Platine sowie sämtliche Flachbandkabelverbindungen überprüfen)
-```
-```
-Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
-```
-```
-St
-```
-```
-örungsmeldungen
-```
+* Neustart der Hardware
 
-HARGASSNER Hackgut-Pellets-Heizung
+    kein Problem, nur für Protokollzwecke
 
-## VVerbrennungsstörung Nr. 0029erbrennungsstörung Nr. 0029
+    kurzzeitiger Notbetrieb "kein Hardware-Test"
 
-```
+* :Sollte der Fehler eindeutig auf einen Defekt auf der Platine zurückzuführen sein, das heißt die angeschlossenen Komponenten funktionieren einwandfrei, dann kann die Steuerung im kurzzeitigem Notbetrieb (bis der Service eintrifft) ohne Hardware-Test betrieben werden.
+
+    1. Die Steuerung mittels seitlichem Hauptschalter ausschalten.
+
+    2. Die linke untere "Leer"-Taste gedrückt halten, während der Hauptschalter wieder eingeschaltet wird. In der vierten Zeile des Display ́s erscheint die Meldung "keine Hardware-Test". Sobald diese Meldung zu lesen ist kann die Taste losgelassen werden und die Steuerung führt keinen Selbsttest mehr durch (aber nur bis zur nächsten Stromunterbrechung).Weiters müssen die defekten Komponenten im Handbetrieb auf ihre richtige Funktion überprüft werden, um weitere Schäden ausschließen zu können! kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
+
+* : Sollte der Fehler nicht behebbar sein, kann bei geschlossenem Rost ein Notbetrieb (bis der Service eintrifft) aktiviert werden.
+
+    1. in Wahlschalterstellung Hand Nr.2 (Störung mit "Enter"quitieren) und mit der + bzw. - Taste kontrollieren das der Rost geschlossen ist.
+
+    2. die linke untere "Leer"-Taste kurz drücken ("keine Hardware-Test-Initiator") die Anlage geht auf "Notbetrieb" und führt ab jetzt 48 Stunden keinen Initiatortest und keine Entaschung mehr durch.
+
+    Die Anzeige "Notbetrieb" steht blinkend am Display und zählt von 48 Stunden nach unten. Nach der Reparatur unbedingt Hauptschalter aus- und wieder einschalten  
+    
+    Notbetrieb wird beendet und Rostüberwachung ist wieder aktiv.
+
+* keine Maßnahmen erforderlich; tritt diese Meldung sehr häufig auf ist der Elektriker zu verständigen (sehr viele Stromausfälle, schlechte Klemmstelle in der Netzzuleitung, Verbindungen zw. HS und I/O-Platine sowie sämtliche Flachbandkabelverbindungen überprüfen)
+
+    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+
+
+## Verbrennungsstörung Nr. 0029
+
+Ihre Pelletsanlage ist mit einer automatischen Verbrennungsüberwachung mittels Lambdasonde ausgestattet.
+Eine Verbrennungsstörung liegt vor wenn der CO²-Wert länger als 5min (Service-Par.Nr.S5) unter 5% (Service-
+Par.Nr. S4) liegt dh. entweder keine Pellets gefördert werden oder die Zündung des Brennmaterials
+fehlgeschlagen hat. Es wird die "Störung Nr.0029 Verbrennungsstörung" angezeigt.
+
 mögliche Ursachen:
-```
+------------------
+
 - Zwischenbehälter leer......................................... defekter Füllstandsmelder (falsche oder zu wenig Saugzeiten bei RAS)
 - Brückenbildung im Zwischenbehälter.................. Fremdkörper od. zuviel Staub im Zwischenbehälter
 - Einschubmotor läuft retour................................... Einschubmotor defekt (Kondensator)
 - Brennraum überfüllt............................................ Zündung defekt
-    Um die Ursache festzustellen bzw. beheben zu können, müssen Sie wie folgt vorgehen:
-    1.
-    2.
 
-```
-3.
-```
-```
-a.
-```
-```
+
+Um die Ursache festzustellen bzw. beheben zu können, müssen Sie wie folgt vorgehen:
+-----------------------------------------------------------------------------------
+    1. Aschenlade entnehmen und Kontrollblech einschieben
+    2. Die Störungsanzeige durch drücken der "Enter" Taste bestätigen (Anzeige blinkt). In Wahlschalterstellung
+HAND Nr.2 solange die +Taste drücken, bis der Schieberost komplett geöffnet ist. Dann kontrollieren sie,
+ob die Brennkammer mit Pellets überfüllt war, wenn ja, dann weiter mit Punkt "Brennkammer überfüllt".
+    3. In Wahlschalterstellung HAND Nr.4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig
+öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
+
+keine Pelletsförderung:
+-----------------------
+a Überprüfen Sie ob Pellets im Zwischenbehälter sind:
+  ---------------------------------------------------
+Bei Sauganlagen durch klopfen auf den Zwischenbehälter (oder mit einer Taschenlampe durch die
+Schaulöcher am Deckel). Es sind keine Pellets im Zwischenbehälter: Füllstandsmelder auf seine Funktion
+(voll = Licht leuchtet, leer = Licht ist aus) überprüfen. Es müssen der Zwischenbehälter und die
+Einschubschnecke neu befüllt werden (siehe Punkt c. "Füllen").
+
 b.
 ```
 ```
@@ -1783,10 +1613,7 @@ c.
 Brennkammer überfüllt :
 ```
 ```
-Ihre Pelletsanlage ist mit einer automatischen Verbrennungsüberwachung mittels Lambdasonde ausgestattet.
-Eine Verbrennungsstörung liegt vor wenn der CO²-Wert länger als 5min (Service-Par.Nr.S5) unter 5% (Service-
-Par.Nr. S4) liegt dh. entweder keine Pellets gefördert werden oder die Zündung des Brennmaterials
-fehlgeschlagen hat. Es wird die "Störung Nr.0029 Verbrennungsstörung" angezeigt.
+
 ```
 ```
 Bei Direktschnecken den Wartungsdeckel der Raumschnecke öffnen. Wenn das Übergangsstück leer ist,
@@ -1815,25 +1642,17 @@ Störung mit "ENTER" quittieren oder die Anlage kurz stromlos schalten.
 ACHTUNG: Die Prüfung Nr.2 muss durchgeführt werden sonst startet die Heizung nicht!
 ```
 ```
-In Wahlschalterstellung HAND Nr.4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig
-öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
+
 ```
 ```
 Aschenlade entnehmen und Kontrollblech einschieben.
-Die Störungsanzeige durch drücken der "Enter" Taste bestätigen (Anzeige blinkt). In Wahlschalterstellung
-HAND Nr.2 solange die +Taste drücken, bis der Schieberost komplett geöffnet ist. Dann kontrollieren sie,
-ob die Brennkammer mit Pellets überfüllt war, wenn ja, dann weiter mit Punkt "Brennkammer überfüllt".
+
 ```
 ```
 Pellets werden gefördert:
 ```
 ```
-keine Pelletsförderung:
-Überprüfen Sie ob Pellets im Zwischenbehälter sind:
-Bei Sauganlagen durch klopfen auf den Zwischenbehälter (oder mit einer Taschenlampe durch die
-Schaulöcher am Deckel). Es sind keine Pellets im Zwischenbehälter: Füllstandsmelder auf seine Funktion
-(voll = Licht leuchtet, leer = Licht ist aus) überprüfen. Es müssen der Zwischenbehälter und die
-Einschubschnecke neu befüllt werden (siehe Punkt c. "Füllen").
+
 ```
 ```
 In Wahlschalterstellung "Auto" die Pelletsanlage starten und den Einschubmotor (Kettenantrieb) überprüfen
