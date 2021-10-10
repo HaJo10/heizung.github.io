@@ -1,16 +1,16 @@
 
 
-**HACKGUT- PELLETS - HEIZTECHNIK MIT**
+**HACKGUT-PELLETS-HEIZTECHNIK MIT**
 
 A - 4952 Weng OÖ
 
-Te l: + 43/ 7723/ 5274- 0
+Tel: + 43/ 7723/ 5274-0
 
-Fa x:+ 43/ 7723/ 5274- 5
+Fax:+ 43/ 7723/ 5274-5
 
-office @hargassner.a t
+office@hargassner.at
 
-**www.h a r g a s s n e r.a t**
+**www.hargassner.at**
 
 **BEDIENUNGSANLEITUNG**
 
@@ -34,7 +34,7 @@ office @hargassner.a t
 
 
 
-**In b e t rie b n a h m e**
+**Inbetriebnahme**
 
 **1.1 Vorwort**
 
@@ -72,7 +72,7 @@ EIN SYSTEM, DAS ÖLKOMFORT MÖGLICH MACHT, BEI UNERREICHTER WIRTSCHAFTLICHKEIT
 BA HSV70-110 V 65 05/
 ```
 
-## IInbetriebnahmenbetriebnahme
+## Inbetriebnahme
 
 1.1 Vorwort
 
@@ -106,7 +106,7 @@ Heizungswasser. Die Brennstoffzufuhr erfolgt über eine, am Kessel montierte, Sa
 Kunststoffschläuche mit dem Lagerraum verbunden ist.
 
 
-## IInhaltsverzeichnisnhaltsverzeichnis
+## Inhaltsverzeichnis
 
 ```
 Einbaurichtlinien
@@ -184,7 +184,7 @@ Seite 42-
 
 HARGASSNER Hackgut-Pellets-Heizung
 
-## EEinbaurichtlinieninbaurichtlinien
+## Einbaurichtlinien
 
 Einbaurichtlinein
 
@@ -256,7 +256,7 @@ feuchtigkeitstunempfindliche Abgassysteme zu verwenden.
 
 HARGASSNER Hackgut-Pellets-Heizung
 
-## EEinbaurichtlinieninbaurichtlinien
+## Einbaurichtlinien
 
 ```
 Einbaurichtlinien
@@ -289,8 +289,7 @@ Asche-
 gehalt
 ```
 ```
-Durch-
-messer Länge Staubanteil
+Durch-messer Länge Staubanteil
 ```
 ```
 Lagerraum-
@@ -360,7 +359,7 @@ naturbelassenem Holz.
 HARGASSNER Hackgut-Pellets-Heizung 3
 
 
-## IInbetriebnahmenbetriebnahme
+## Inbetriebnahme
 
 ```
 1.
@@ -433,7 +432,7 @@ werksmäßige Lufteinstellung:
 Inbetriebnahme
 
 
-## WWartung und Reinigungartung und Reinigung
+## Wartung und Reinigung
 
 ```
 1.
@@ -543,7 +542,7 @@ Dehnfuge bilden. Diese Rissbildung ist wichtig und hat auf die Funktion der Anla
 Wartung und Reinigung
 ```
 
-## WWartung und Reinigungartung und Reinigung
+## Wartung und Reinigung
 
 ```
 Diese Pellets-Heizung ist mit einerautomatischen Rost- und Flugaschenaustragungundautomatischer
@@ -657,7 +656,7 @@ am Initiator leuchtet nicht, ist der Rost-Initiator Nr.17 oder das Initiatorkabe
 Wartung und Reinigung
 ```
 
-## WWartung und Reinigungartung und Reinigung
+## Wartung und Reinigung
 
 -
 -
@@ -1014,7 +1013,7 @@ Info-Ebene
 Kundeneinstellungen
 
 
-## KKunden-Einstellungenunden-Einstellungen
+## Kunden-Einstellungen
 
 ```
 HEIZUNG AUS in der ersten Zeile wird bei allen Feldern der Kesselzustand angezeigt
@@ -1223,7 +1222,7 @@ anzeige
 Kundeneinstellungen
 ```
 
-## KKunden-Einstellungenunden-Einstellungen
+## Kunden-Einstellungen
 
 ```
 Heizkreismodul 1 bei angeschlossenem Heizkreismodul 1 werden die parametrierten Heizkreise wie folgt angezeigt.
@@ -1565,7 +1564,7 @@ alle Funktionen nur solange die + oder - Taste gedrückt ist!
 Wahlschalter-Hand
 ```
 
-## WWahlschalter-Handahlschalter-Hand
+## Wahlschalter-Hand
 
 ```
 Diese Stellung dient zur Überprüfung sämtlicher elektrischer Funktionen, und zur manuellen
@@ -1703,7 +1702,7 @@ angesch/defekt"
 Wahlschalter-Hand
 
 
-## WWahlschalter-Handahlschalter-Hand
+## Wahlschalter-Hand
 
 Diese Stellung dient zur Überprüfung sämtlicher elektrischer Funktionen, und zur manuellen
 Betätigung der Antriebe bei Reinigung, Störung oder Kontrolle!
@@ -1956,7 +1955,7 @@ Anzeige: - - - dh. der Fühler hat einen Kurzschluss
 Wahlschalter-Hand
 
 
-## IInstallateur-Einstellungennstallateur-Einstellungen
+## Installateur-Einstellungen
 
 Installateurebene
 Parametrierung nach
@@ -2201,7 +2200,7 @@ Temperaturabfall nach Zeitdifferenz Parameter A9c.
 Installateur-Einstellungen
 
 
-## IInstallateur-Einstellungennstallateur-Einstellungen
+## Installateur-Einstellungen
 
 Installateur-Einstellungen und gleichzeitig 3sek drücken+ -
 
@@ -3796,7 +3795,7 @@ Vorlauftemperatur °C
 Installateur-Einstellungen
 ```
 
-## SStörungsmeldungentörungsmeldungen
+## Störungsmeldungen
 
 Störungs - Nummer Erklärung
 
