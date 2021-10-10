@@ -84,133 +84,67 @@ Anzeigebeleuchtung fehlt
 * Sicherheitsthermostat (STB)
 
     Übertemperatur am Heizkessel oder STB-Zuleitung defekt oder beim händisch Heizen überhitzt
-    Kessel unter 90°C abkühlen lassen, beim STB (an der Kesselrückseite) die Schutzkappe abnehmen und den Knopf eindrücken; Schaltpunkt (100°C) des STB überprüfen; STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 defekt sein;
+    
+    Kessel unter 90°C abkühlen lassen, beim STB (an der Kesselrückseite) die Schutzkappe abnehmen und den Knopf eindrücken; Schaltpunkt (100°C) des STB überprüfen; 
+    
+    STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 defekt sein;
+    
     Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0006
 ```
-```
-Rücklaufzeit überschritten
-```
-```
-Sperriger Teil konnte auch durch mehrmaliges Rückwärts-fahren ( Rücklaufzeit max.1min) der Schnecke nicht weiter transportiert werden, oder Endschalter-Deckel defekt
-```
-```
-sperrigen Teil oder zu großes bzw. verunreinigtes Hackgut (Steine etc.) aus der Fallstufe entfernen;Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen
-```
-```
-;
-```
+
+* Rücklaufzeit überschritten
+
+    Sperriger Teil konnte auch durch mehrmaliges Rückwärts-fahren ( Rücklaufzeit max.1min) der Schnecke nicht weiter transportiert werden, oder Endschalter-Deckel defekt 
+    
+    sperrigen Teil oder zu großes bzw. verunreinigtes Hackgut (Steine etc.) aus der Fallstufe entfernen;
+    
+    Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen
+
 ```
 0007
 ```
-```
-Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10sek. kommt die Störung
-```
-```
-Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
-```
-```
-sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen od
-```
-```
-er austauschen
-```
-```
-lassen, sonst Service verständigen und rechte I/O-Platine tauschen. ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Tes
-```
-```
-t" am Ende der
-```
-```
-Störungsbeschreibung )Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
-```
+
+* Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10sek. kommt die Störung
+
+    Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
+    
+    sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
+
 ```
 0008
 ```
-```
-Brennraum überfüllt,zuerst erscheint eine Meldung,nach 30min. kommt die Störung
-```
-```
-Materialüberfüllung im Brennraum (seit 30min), Zündung defekt (siehe auch Nummer 0010) oder Brennmaterial zu feucht, zuviel Asche/Schlacke im Brennraum oder Endschalter-Vergaser defekt
-```
-```
-Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führ
-```
-```
-ung zum
-```
-```
-Endschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. aust
-```
-```
-auschen lassen;
-```
-```
-Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
-```
+
+* Brennraum überfüllt, zuerst erscheint eine Meldung, nach 30min. kommt die Störung
+
+    Materialüberfüllung im Brennraum (seit 30min), Zündung defekt (siehe auch Nummer 0010) oder Brennmaterial zu feucht, zuviel Asche/Schlacke im Brennraum oder Endschalter-Vergaser defekt
+
+    Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führung zumEndschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. austauschen lassen;
+    
+    Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+
 ```
 0009
 ```
-```
+
 Brandschutzklappe öffnet nicht
 ```
-```
-Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
-```
-```
-Funktion der Brandschutzklappe im Handbetrieb (Nr.5) überprüfen und event. sperrigen Teil unter BSK-Klappe entfernen; Endschalt
-```
-```
-er
-```
-```
-Brandschutzklappe durch Elektriker prüfen lassen (Kontakt muß geschlossen sein); Verbindungsleitung zwischen rechter I/O-Platin
-```
-```
-e (Klemme 34) und
-```
-```
-linker HS-Platine (Klemme 23) überprüfen; Sicherung F23 (für BSK-Motor und Zündung) überprüfen, sollte die Zündung im Handbetri
-```
-```
-eb funktionieren
-```
-```
-ist die Sicherung nicht defekt und es mußder Brandschutzklappenmotor getauscht werden;.Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
-```
-```
-Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
-```
-```
-Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück
-```
-```
-fahren, oder
-```
-```
-abgenützte Schneckengänge erneuern; elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; bei Ascheaustragun
-```
-```
-g kann es
-```
-```
-auch von der Schwergängigkeit der Kesselputzeinrichtung oder der automatischen Flugascheaustragung kommen; Elektriker bzw. Serv
-```
-```
-ice
-```
-```
-verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
-```
-```
-Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
-```
-St
 
-örungsmeldungen
+* Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
 
+    Funktion der Brandschutzklappe im Handbetrieb (Nr.5) überprüfen und event. sperrigen Teil unter BSK-Klappe entfernen; Endschalter Brandschutzklappe durch Elektriker prüfen lassen (Kontakt muß geschlossen sein); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 34) und linker HS-Platine (Klemme 23) überprüfen; Sicherung F23 (für BSK-Motor und Zündung) überprüfen, sollte die Zündung im Handbetrieb funktionieren
+
+    ist die Sicherung nicht defekt und es muß der Brandschutzklappenmotor getauscht werden;
+    
+    Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+
+    Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
+
+    Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurückfahren, oder abgenützte Schneckengänge erneuern; elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; bei Ascheaustragung kann es auch von der Schwergängigkeit der Kesselputzeinrichtung oder der automatischen Flugascheaustragung kommen; Elektriker bzw. Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+
+    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
 
 ## SStörungsmeldungentörungsmeldungen
 
