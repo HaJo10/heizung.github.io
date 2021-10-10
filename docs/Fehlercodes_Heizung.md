@@ -57,7 +57,9 @@ Anzeigebeleuchtung fehlt
 
 * Sicherung F25 defekt
 
-    Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaftElektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; rechte I/O Platine tauschen sonst Service verständigen;
+    Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaft
+    
+    Elektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; rechte I/O Platine tauschen sonst Service verständigen;
 
 ```
 0002
@@ -130,7 +132,6 @@ Anzeigebeleuchtung fehlt
 ```
 
 Brandschutzklappe öffnet nicht
-```
 
 * Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
 
@@ -146,17 +147,14 @@ Brandschutzklappe öffnet nicht
 
     Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
 
-## SStörungsmeldungentörungsmeldungen
+## Störungsmeldungen
 
 Störungs - Nummer Erklärung
 
 Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
 
 ```
-Störungs-Numme
-```
-```
-r
+Störungs-Nummer
 ```
 ```
 Verursacher
@@ -173,320 +171,219 @@ Lösung
 ```
 0010
 ```
-```
-Zündzeit überschritten
-```
-```
-die Rauchgastemperatur ist innerhalb der Zündversuchszeit (Parameter P11) nicht um den eingestellten Wert ( Parameter P5) angestiegen; kein oder zu feuchtes Brennmaterial vorhanden; zuviel Asche/Schlacke im Brennraum; Zündung defekt; Rauchgasfühler steckt nicht im Rauchrohr;
-```
-```
-Brennmaterial kontrollieren und das Zündgerät in Wahlschalter Hand prüfen ob es noch heiß bläst; von Elektriker die Zündungs-Kl
-```
-```
-emmstellen und
-```
-```
-Leitung überprüfen lassen; Montage des Rauchgasfühlers und Klemmstellen (Oxidation der Fühlerenden) überprüfen; Ascheaustragung
-```
-```
-im
-```
-```
-Handbetrieb überprüfen; Service verständigen;
-```
+
+* Zündzeit überschritten
+* 
+    die Rauchgastemperatur ist innerhalb der Zündversuchszeit (Parameter P11) nicht um den eingestellten Wert ( Parameter P5) angestiegen; 
+    
+    kein oder zu feuchtes Brennmaterial vorhanden; 
+    
+    zuviel Asche/Schlacke im Brennraum; Zündung defekt; 
+    
+    Rauchgasfühler steckt nicht im Rauchrohr;
+
+    Brennmaterial kontrollieren und das Zündgerät in Wahlschalter Hand prüfen ob es noch heiß bläst; von Elektriker die Zündungs-Klemmstellen und Leitung überprüfen lassen; 
+    Montage des Rauchgasfühlers und Klemmstellen (Oxidation der Fühlerenden) überprüfen; 
+    
+    Ascheaustragung im Handbetrieb überprüfen; Service verständigen;
+
 ```
 0011
 ```
-```
-minimale Rauchgastemperatur unterschritten
-```
-```
-Im Leistungsbrand sinkt die Rauchgastemperatur für die eingestellte Zeit (Nr.K8) unter den eingestellten Wert (Nr.K7).
-```
-```
-kein oder zu feuchtes Brennmaterial vorhanden oder zu viel Asche oder zu viel Schlacke im Brennraum; Problem beseitigen, Funkti
-```
-```
-on der Motore und
-```
-```
-des Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
-```
+
+* minimale Rauchgastemperatur unterschritten
+
+    Im Leistungsbrand sinkt die Rauchgastemperatur für die eingestellte Zeit (Nr.K8) unter den eingestellten Wert (Nr.K7).
+
+    kein oder zu feuchtes Brennmaterial vorhanden oder zu viel Asche oder zu viel Schlacke im Brennraum; 
+    
+    Problem beseitigen, Funktion der Motore unddes Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
+
 ```
 0012
 ```
-```
-Initiator Entaschung
-```
-```
-Ascheaustragung kann die eingestellten Umdrehungen (Nr.Q5 od. Q8) innerhalb von 150 Sekunden nicht erreichen. Initiator defekt, Abstand Initiator-Nocke zu groß. (Werkseinstellung 4mm)
-```
-```
-siehe auch Seite 5 (Ascheaustragung / Wartung / Störung); Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die In
-```
-```
-itiator-Anzeige
-```
-```
-muss von 10 mal auf 9 mal usw. herunterzählen); vom Elektriker Klemmen und Leitung prüfen lassen und den Initiator prüfen; Init
-```
-```
-iatorkabel von
-```
-```
-Klemme Nr.63 abklemmen und dazwischen ein Multimeter klemmen, in Wahlschalterstellung Hand Nr.2 mit der Taste +/- die Initiator
-```
-```
--Nocke zum
-```
-```
-Initiator drehen (Initiator ein, Initiatorlampe leuchtet), Multimeter muss ca.21mA anzeigen und dann die Initiator-Nocke vom In
-```
-```
-itiator weg drehen
-```
-```
-(Initiator aus, Initiatorlampe leuchtet nicht), Multimeter muss ca.1,7mA anzeigen; Initiator tauschen oder Service verständigen
-```
-```
-;
-```
-```
-nur bei HSV70S-100S - siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störun
-```
-```
-gsbeschreibung
-```
+
+* Initiator Entaschung
+
+    Ascheaustragung kann die eingestellten Umdrehungen (Nr.Q5 od. Q8) innerhalb von 150 Sekunden nicht erreichen. Initiator defekt, Abstand Initiator-Nocke zu groß. (Werkseinstellung 4mm)
+    
+    siehe auch Seite 5 (Ascheaustragung / Wartung / Störung); 
+    
+    Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die Initiator-Anzeigemuss von 10 mal auf 9 mal usw. herunterzählen); 
+    
+    vom Elektriker Klemmen und Leitung prüfen lassen und den Initiator prüfen; Initiatorkabel von Klemme Nr.63 abklemmen und dazwischen ein Multimeter klemmen, in Wahlschalterstellung Hand Nr.2 mit der Taste +/- die Initiator-Nocke zum Initiator drehen (Initiator ein, Initiatorlampe leuchtet), Multimeter muss ca.21mA anzeigen und dann die Initiator-Nocke vom Initiator weg drehen (Initiator aus, Initiatorlampe leuchtet nicht), Multimeter muss ca.1,7mA anzeigen; Initiator tauschen oder Service verständigen
+
+* nur bei HSV70S-100S - siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
+
 ```
 0013
 ```
-```
-Überstrom Einschubschnecke
-```
+
+* Überstrom Einschubschnecke
+
 ```
 0014
 ```
-```
-Überstrom Raumaustragung
-```
+
+* Überstrom Raumaustragung
+
 ```
 0015
 ```
-```
-Überstrom Aschenaustragung
-```
+
+* Überstrom Aschenaustragung
+
 ```
 0016
 ```
-```
-Rauchgasfühler falsch angeschlossen
-```
-```
-Fühler falsch angeschlossen (kann nur bei Inbetriebnahme vorkommen) oder HS-Platine defekt
-```
-```
-Fühler durch Elektriker auf Anschlusspolarität überprüfen; Rauchgasfühler oder linke HS-Platine austauschen;
-```
+
+* Rauchgasfühler falsch angeschlossen
+
+    Fühler falsch angeschlossen (kann nur bei Inbetriebnahme vorkommen) oder HS-Platine defekt
+    
+    Fühler durch Elektriker auf Anschlusspolarität überprüfen; Rauchgasfühler oder linke HS-Platine austauschen;
+
 ```
 0017
 ```
-```
-Rauchgasfühler Unterbrechung
-```
-```
-Fühler nicht angeschlossen oder Leitungsunterbrechung
-```
-```
-Fühler anklemmen; Leitung und Klemmstellen kontrollieren; Fühler od. linke HS-Platine tauschen;
-```
+
+* Rauchgasfühler Unterbrechung
+
+    Fühler nicht angeschlossen oder Leitungsunterbrechung
+
+    Fühler anklemmen; Leitung und Klemmstellen kontrollieren; Fühler od. linke HS-Platine tauschen;
+
 ```
 0018
 ```
-```
-Kesselfühler Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
-```
-Leitungen bzw. Fühler lt. Widerstandswertetabelle (siehe K
-```
-```
-apitel Installateur-Einstellungen) durch Elektriker überprüfen lassen.
-```
+
+* Kesselfühler Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
+    Leitungen bzw. Fühler lt. Widerstandswertetabelle (siehe Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen.
+
 ```
 0019
 ```
-```
-Kesselfühler Unterbrechung
-```
-```
-Fühler nicht angeschlossen oder Fühler-Unterbrechung
-```
-```
-Fühler anschließen; Leitung und Klemmstellen kontrollieren; den defekten Fühler (Stecker auf der rechten I/O-Platine) mit einem
-```
-```
-anderen Fühler
-```
-```
-tauschen, kommt eine andere Störung ist der Fühler zu erneuern, kommt die selbe Störung ist die rechte-I/O Platine auszutausche
-```
-```
-n;
-```
+
+* Kesselfühler Unterbrechung
+
+    Fühler nicht angeschlossen oder Fühler-Unterbrechung
+
+    Fühler anschließen; Leitung und Klemmstellen kontrollieren; den defekten Fühler (Stecker auf der rechten I/O-Platine) mit einem anderen Fühler tauschen, kommt eine andere Störung ist der Fühler zu erneuern, kommt die selbe Störung ist die rechte-I/O Platine auszutauschen;
+
 ```
 0020
 ```
-```
-Boilerfühler 1 Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Boilerfühler 1 Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0021
 ```
-```
-Boilerfühler 1 Unterbrechung
-```
-```
-Unterbrechung im Fühler oder in der Leitung
-```
+
+* Boilerfühler 1 Unterbrechung
+
+    Unterbrechung im Fühler oder in der Leitung
+
 ```
 0022
 ```
-```
-Boilerfühler 2 Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Boilerfühler 2 Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0023
 ```
-```
-Boilerfühler 2 Unterbrechung
-```
-```
-Unterbrechung im Fühler oder in der Leitung
-```
+
+* Boilerfühler 2 Unterbrechung
+
+    Unterbrechung im Fühler oder in der Leitung
+
 ```
 0024
 ```
-```
-Rücklauffühler Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Rücklauffühler Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0025
 ```
-```
-Rücklauffühler Unterbrechung
-```
-```
-Unterbrechung im Fühler oder in der Leitung oder Fühler nicht vorhanden.
-```
+
+* Rücklauffühler Unterbrechung
+
+    Unterbrechung im Fühler oder in der Leitung oder Fühler nicht vorhanden.
+
 ```
 0026
 ```
-```
-Außenfühler Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Außenfühler Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0027
 ```
-```
-Außenfühler Unterbrechung
-```
-```
-Unterbrechung im Fühler oder in der Leitung
-```
+
+* Außenfühler Unterbrechung
+
+    Unterbrechung im Fühler oder in der Leitung
+
 ```
 0028
 ```
-```
-Vorlauffühler HK1 Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Vorlauffühler HK1 Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0029
 ```
-```
-Vorlauffühler HK1 Unterbrechung
-```
-```
-Unterbrechung im Fühler oder in der Leitung
-```
+
+* Vorlauffühler HK1 Unterbrechung
+
+    Unterbrechung im Fühler oder in der Leitung
+
 ```
 0030
 ```
-```
-Vorlauffühler HK2 Kurzschluss
-```
-```
-Kurzschluss im Fühler oder in der Leitung
-```
+
+* Vorlauffühler HK2 Kurzschluss
+
+    Kurzschluss im Fühler oder in der Leitung
+
 ```
 0031
 ```
-```
-Vorlauffühler HK2 Unterbrechung
-```
-```
-Sperriger Teil im Schneckenkanal oder Schneckegänge sind abgenützt. Unterbrechung im Fühler oder in der Leitung
-```
-```
-Fremdkörper beseitigen, in WS-Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück fahren (Motorstro
-```
-```
-manzeige
-```
-```
-kontrollieren); eventuell abgenützte Schneckengänge erneuern; bei Ascheaustragung auch Kesselputzeinrichtung und Flugascheaustr
-```
-```
-agung auf
-```
-```
-Leichtgängigkeit prüfen; Fühler anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung in der Installationsebene überprüfen;Fühler oder Leitung lt. Widerstandswerte (Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen;den Stecker des als defekt angezeigten Fühlers (auf der rechten I/O-Platine) mit einem anderen Fühler-Stecker tauschen, kommt
-```
-```
-eine andere
-```
-```
-Störung ist der Fühler defekt und zu erneuern, kommt die selbe Störung ist die rechte I/O-Platine auszutauschen bzw. der Servi
-```
-```
-ce zu verständigen;
-```
-```
-diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Repa
-```
-```
-ratur zu
-```
-```
-erinnern;
-```
-```
-Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
-```
-```
-St
-```
-```
-örungsmeldungen
-```
 
-## SStörungsmeldungentörungsmeldungen
+* Vorlauffühler HK2 Unterbrechung
+
+    Sperriger Teil im Schneckenkanal oder Schneckegänge sind abgenützt. Unterbrechung im Fühler oder in der Leitung
+
+    Fremdkörper beseitigen, in WS-Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren); 
+    
+    eventuell abgenützte Schneckengänge erneuern; bei Ascheaustragung auch Kesselputzeinrichtung und Flugascheaustragung auf Leichtgängigkeit prüfen; 
+    
+    Fühler anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung in der Installationsebene überprüfen;
+    
+    Fühler oder Leitung lt. Widerstandswerte (Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen;
+    
+    den Stecker des als defekt angezeigten Fühlers (auf der rechten I/O-Platine) mit einem anderen Fühler-Stecker tauschen, kommt eine andere Störung ist der Fühler defekt und zu erneuern, kommt die selbe Störung ist die rechte I/O-Platine auszutauschen bzw. der Service zu verständigen;
+    
+    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zuerinnern;
+
+    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+
+## Störungsmeldungen
 
 Störungs - Nummer Erklärung
 
