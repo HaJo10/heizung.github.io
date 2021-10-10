@@ -6,18 +6,11 @@ Störungs - Nummer Erklärung
 Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
 ```
 ```
-Störungs-Numme
-```
-```
-r
+Störungs-Nummer
 ```
 ```
 Verursacher
-```
-```
 Ursache/Problem
-```
-```
 Lösung
 ```
 ```
