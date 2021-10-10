@@ -21,23 +21,19 @@ Kein Text in der Anzeige
 
 * Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht 
 
-Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine aufrechter I/O - Platine defekt
+    Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine aufrechter I/O - Platine defekt
 
-Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker
+    Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker
 zwischen linker HS-Platine (Klemme 25) und rechter I/O-Platine (Klemme 30 und 32) prüfen;
 
-- " -
 
 ```
 Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
 ```
-```
-Flachbandkabel nicht ordnungsgemäß angesteckt oder defekt, Bedieneinheit oder rechte I/O-Platine defekt
-```
-```
-Flachbandkabel, Bedieneinheit oder rechte I/O-Platine austauschen, sonst Service verständigen;
-```
-- " -
+
+* Flachbandkabel nicht ordnungsgemäß angesteckt oder defekt, Bedieneinheit oder rechte I/O-Platine defekt
+
+    Flachbandkabel, Bedieneinheit oder rechte I/O-Platine austauschen, sonst Service verständigen;
 
 ```
 2 schwarze Balken in der Anzeige
