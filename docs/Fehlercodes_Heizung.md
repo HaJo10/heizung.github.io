@@ -38,96 +38,55 @@ Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
 ```
 2 schwarze Balken in der Anzeige
 ```
-```
-kein EPROM vorhanden oder verkehrt eingesteckt oder Bedieneinheit defekt.
-```
-```
-richtigen EPROM auf Rückseite der Bedieneinheit einstecken (lt. Zeichnung auf dem Schutzblech der Bedieneinheit); falls EPROM v
-```
-```
-erkehrt
-```
-```
-eingesteckt war, muss das EPROM erneuert werden; Bedieneinheit austauschen; Service verständigen;
-```
-```
--------
-```
+
+* kein EPROM vorhanden oder verkehrt eingesteckt oder Bedieneinheit defekt.
+
+    richtigen EPROM auf Rückseite der Bedieneinheit einstecken (lt. Zeichnung auf dem Schutzblech der Bedieneinheit); falls EPROM verkehrteingesteckt war, muss das EPROM erneuert werden; Bedieneinheit austauschen; Service verständigen;
+
 ```
 Anzeigebeleuchtung fehlt
 ```
-```
-Flachbandkabel oder Bedieneinheit defekt
-```
-```
-Flachbandkabel oder Bedieneinheit austauschen
-```
+
+* Flachbandkabel oder Bedieneinheit defekt
+
+    Flachbandkabel oder Bedieneinheit austauschen
+
 ```
 0001
 ```
-```
-Sicherung F25 defekt
-```
-```
-Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaft
-```
-```
-Elektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; Sicherung F25 wechseln (siehe Aufkleber
-```
-```
-rechte I/O-
-```
-```
-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; rech
-```
-```
-te I/O Platine
-```
-```
-tauschen sonst Service verständigen;
-```
+
+* Sicherung F25 defekt
+
+    Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaftElektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; rechte I/O Platine tauschen sonst Service verständigen;
+
 ```
 0002
 ```
-```
-elektronischer Motorschutz Einschubschnecke ausgelöst
-```
+
+* elektronischer Motorschutz Einschubschnecke ausgelöst
+
 ```
 0003
 ```
-```
-elektronischer Motorschutz Raumaustragung ausgelöst
-```
+
+* elektronischer Motorschutz Raumaustragung ausgelöst
+
 ```
 0004
 ```
-```
-elektronischer Motorschutz Ascheaustragung ausgelöst
-```
+
+* elektronischer Motorschutz Ascheaustragung ausgelöst
+
 ```
 0005
 ```
-```
-Sicherheitsthermostat (STB)
-```
-```
-Übertemperatur am Heizkessel oder STB-Zuleitung defekt oder beim händisch Heizen überhitzt
-```
-```
-Kessel unter 90°C abkühlen lassen, beim STB (an der Kesselrückseite) die Schutzkappe abnehmen und den Knopf eindrücken; Schaltp
-```
-```
-unkt (100°C)
-```
-```
-des STB überprüfen; STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 d
-```
-```
-efekt sein;
-```
-```
-Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
-```
+
+* Sicherheitsthermostat (STB)
+
+    Übertemperatur am Heizkessel oder STB-Zuleitung defekt oder beim händisch Heizen überhitzt
+    Kessel unter 90°C abkühlen lassen, beim STB (an der Kesselrückseite) die Schutzkappe abnehmen und den Knopf eindrücken; Schaltpunkt (100°C) des STB überprüfen; STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 defekt sein;
+    Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+
 ```
 0006
 ```
