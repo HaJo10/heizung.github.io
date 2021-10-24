@@ -1,32 +1,30 @@
 # Störungsmeldungen
 
-
     Zur Störungsbehebung unbedingt Hauptschalter ausschalten!
     
 ```
 Störungs-Nummer
 ```
-```
-Verursacher
-Ursache/Problem
-Lösung
-```
 
-```
-(nach Behebung der Störung ENTER-Taste drücken)
-```
+* Verursacher
+
+    Ursache/Problem
+    
+    Lösung
+
+
+# **(nach Behebung der Störung ENTER-Taste drücken)**
 
 ```
 Kein Text in der Anzeige
 ```
 
-* Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht 
+* Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht
 
     Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine aufrechter I/O - Platine defekt
 
     Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker
 zwischen linker HS-Platine (Klemme 25) und rechter I/O-Platine (Klemme 30 und 32) prüfen;
-
 
 ```
 Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
@@ -68,17 +66,33 @@ Anzeigebeleuchtung fehlt
 
 * elektronischer Motorschutz Einschubschnecke ausgelöst
 
+    siehe 0004
+
 ```
 0003
 ```
 
 * elektronischer Motorschutz Raumaustragung ausgelöst
 
+    siehe 0004
+
 ```
 0004
 ```
 
 * elektronischer Motorschutz Ascheaustragung ausgelöst
+
+    Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
+
+    Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr. 2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurückfahren, oder abgenützte Schneckengänge erneuern; 
+    
+    elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; 
+    
+    bei Ascheaustragung kann es auch von der Schwergängigkeit der Kesselputzeinrichtung oder der automatischen Flugascheaustragung kommen; 
+    
+    Elektriker bzw. Service verständigen und rechte I/O-Platine tauschen;
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0005
@@ -114,7 +128,11 @@ Anzeigebeleuchtung fehlt
 
     Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
 
-    sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
+    sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. 
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) 
+    
+    Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
 
 ```
 0008
@@ -126,27 +144,31 @@ Anzeigebeleuchtung fehlt
 
     Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führung zumEndschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. austauschen lassen;
     
-    Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    Service verständigen und rechte I/O-Platine tauschen;
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0009
 ```
 
-Brandschutzklappe öffnet nicht
+* Brandschutzklappe öffnet nicht
 
-* Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
+    Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
 
-    Funktion der Brandschutzklappe im Handbetrieb (Nr.5) überprüfen und event. sperrigen Teil unter BSK-Klappe entfernen; Endschalter Brandschutzklappe durch Elektriker prüfen lassen (Kontakt muß geschlossen sein); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 34) und linker HS-Platine (Klemme 23) überprüfen; Sicherung F23 (für BSK-Motor und Zündung) überprüfen, sollte die Zündung im Handbetrieb funktionieren
+    Funktion der Brandschutzklappe im Handbetrieb (Nr.5) überprüfen und event. sperrigen Teil unter BSK-Klappe entfernen;
 
-    ist die Sicherung nicht defekt und es muß der Brandschutzklappenmotor getauscht werden;
+    Endschalter Brandschutzklappe durch Elektriker prüfen lassen (Kontakt muß geschlossen sein);
+
+    Verbindungsleitung zwischen rechter I/O-Platine (Klemme 34) und linker HS-Platine (Klemme 23) überprüfen;
+
+    Sicherung F23 (für BSK-Motor und Zündung) überprüfen, sollte die Zündung im Handbetrieb funktionieren ist die Sicherung nicht defekt und es muß der Brandschutzklappenmotor getauscht werden;
     
-    Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    Service verständigen und rechte I/O-Platine tauschen;
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
-    Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
-
-    Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurückfahren, oder abgenützte Schneckengänge erneuern; elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; bei Ascheaustragung kann es auch von der Schwergängigkeit der Kesselputzeinrichtung oder der automatischen Flugascheaustragung kommen; Elektriker bzw. Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
-
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+    Nach Fehlerbehebung ENTER- Taste drücken ! Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
 
 ```
 0010
