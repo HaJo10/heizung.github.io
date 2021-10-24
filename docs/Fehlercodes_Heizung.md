@@ -8,8 +8,10 @@ Störungs-Nummer
 
 * Verursacher
 
+    ---
     Ursache/Problem
     
+    ---
     Lösung
 
 
@@ -21,8 +23,10 @@ Kein Text in der Anzeige
 
 * Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht
 
+    ---
     Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine auf rechter I/O - Platine defekt
 
+    ---
     Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); 
     
     Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker zwischen linker HS-Platine (Klemme 25) und rechter I/O-Platine (Klemme 30 und 32) prüfen;
@@ -32,8 +36,10 @@ Kein Text in der Anzeige
 ```
 * Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
 
+    ---
     Flachbandkabel nicht ordnungsgemäß angesteckt oder defekt, Bedieneinheit oder rechte I/O-Platine defekt
 
+    ---
     Flachbandkabel, Bedieneinheit oder rechte I/O-Platine austauschen, sonst Service verständigen;
 
 ```
@@ -41,8 +47,10 @@ Kein Text in der Anzeige
 ```
 * 2 schwarze Balken in der Anzeige
 
+    ---
     kein EPROM vorhanden oder verkehrt eingesteckt oder Bedieneinheit defekt.
 
+    ---
     richtigen EPROM auf Rückseite der Bedieneinheit einstecken (lt. Zeichnung auf dem Schutzblech der Bedieneinheit); falls EPROM verkehrt eingesteckt war, muss das EPROM erneuert werden; Bedieneinheit austauschen; Service verständigen;
 
 ```
@@ -50,8 +58,10 @@ Kein Text in der Anzeige
 ```
 * Anzeigebeleuchtung fehlt
 
+    ---
     Flachbandkabel oder Bedieneinheit defekt
 
+    ---
     Flachbandkabel oder Bedieneinheit austauschen
 
 ```
@@ -60,8 +70,10 @@ Kein Text in der Anzeige
 
 * Sicherung F25 defekt
 
+    ---
     Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaft
     
+    ---
     Elektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; 
     
     Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; 
@@ -90,8 +102,10 @@ Kein Text in der Anzeige
 
 * elektronischer Motorschutz Ascheaustragung ausgelöst
 
+    ---
     Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
 
+    ---
     Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr. 2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurückfahren, oder abgenützte Schneckengänge erneuern; 
 
     elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; 
@@ -108,8 +122,10 @@ Kein Text in der Anzeige
 
 * Sicherheitsthermostat (STB)
 
+    ---
     Übertemperatur am Heizkessel oder STB-Zuleitung defekt oder beim händisch Heizen überhitzt
     
+    ---
     Kessel unter 90°C abkühlen lassen, beim STB (an der Kesselrückseite) die Schutzkappe abnehmen und den Knopf eindrücken; Schaltpunkt (100°C) des STB überprüfen; 
     
     STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 defekt sein;
@@ -124,8 +140,10 @@ Kein Text in der Anzeige
 
 * Rücklaufzeit überschritten
 
+    ---
     Sperriger Teil konnte auch durch mehrmaliges Rückwärts-fahren ( Rücklaufzeit max.1min) der Schnecke nicht weiter transportiert werden, oder Endschalter-Deckel defekt
 
+    ---
     sperrigen Teil oder zu großes bzw. verunreinigtes Hackgut (Steine etc.) aus der Fallstufe entfernen;
 
     Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen
@@ -134,10 +152,12 @@ Kein Text in der Anzeige
 0007
 ```
 
-* Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10 sek. kommt die Störung
+* Endschalter Deckel offen, zuerst erscheint eine Meldung, nach 10 sek. kommt die Störung
 
+    ---
     Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
 
+    ---
     sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. 
 
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) 
@@ -150,8 +170,10 @@ Kein Text in der Anzeige
 
 * Brennraum überfüllt, zuerst erscheint eine Meldung, nach 30 min. kommt die Störung
 
+    ---
     Materialüberfüllung im Brennraum (seit 30 min), Zündung defekt (siehe auch Nummer 0010) oder Brennmaterial zu feucht, zuviel Asche/Schlacke im Brennraum oder Endschalter-Vergaser defekt
 
+    ---
     Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führung zum Endschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. austauschen lassen;
     
     Service verständigen und rechte I/O-Platine tauschen;
@@ -164,8 +186,10 @@ Kein Text in der Anzeige
 
 * Brandschutzklappe öffnet nicht
 
+    ---
     Endschalter-BSK wurde innerhalb 3 min nicht betätigt; sperriger Teil unter BSK-Klappe; Endschalter- oder Motor-BSK defekt; event.Sicherung F23 defekt; Verbindungsleitung zwischen rechter I/O-Platine und linker HS-Platine fehlerhaft;
 
+    ---
     Funktion der Brandschutzklappe im Handbetrieb (Nr.5) überprüfen und event. sperrigen Teil unter BSK-Klappe entfernen;
 
     Endschalter Brandschutzklappe durch Elektriker prüfen lassen (Kontakt muß geschlossen sein);
@@ -186,8 +210,10 @@ Kein Text in der Anzeige
 
 * Zündzeit überschritten
 
+    ---
     die Rauchgastemperatur ist innerhalb der Zündversuchszeit (Parameter P11) nicht um den eingestellten Wert ( Parameter P5) angestiegen; 
 
+    ---
     kein oder zu feuchtes Brennmaterial vorhanden;
 
     zuviel Asche/Schlacke im Brennraum; Zündung defekt;
@@ -210,8 +236,10 @@ Kein Text in der Anzeige
 
 * minimale Rauchgastemperatur unterschritten
 
+    ---
     Im Leistungsbrand sinkt die Rauchgastemperatur für die eingestellte Zeit (Nr.K8) unter den eingestellten Wert (Nr.K7).
 
+    ---
     kein oder zu feuchtes Brennmaterial vorhanden oder zu viel Asche oder zu viel Schlacke im Brennraum; 
 
     Problem beseitigen, Funktion der Motore und des Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
@@ -222,8 +250,10 @@ Kein Text in der Anzeige
 
 * Initiator Entaschung
 
+    ---
     Ascheaustragung kann die eingestellten Umdrehungen (Nr.Q5 od. Q8) innerhalb von 150 Sekunden nicht erreichen. Initiator defekt, Abstand Initiator-Nocke zu groß. (Werkseinstellung 4mm)
 
+    ---
     siehe auch Seite 5 (Ascheaustragung / Wartung / Störung); 
 
     Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die Initiator-Anzeige muss von 10 mal auf 9 mal usw. herunterzählen);
@@ -254,8 +284,10 @@ Kein Text in der Anzeige
 
 * Überstrom Aschenaustragung
 
+    ---
     Sperriges Teil im Schneckenkanal, oder Schneckengänge sind abgenutzt
 
+    ---
     Fremdkörper beseitigen
 
     in WS-Hand Nr. 2, 3 oder 4 mit + oder -Taste die jewilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren)
@@ -270,8 +302,10 @@ Kein Text in der Anzeige
 
 * Rauchgasfühler falsch angeschlossen
 
+    ---
     Fühler falsch angeschlossen (kann nur bei Inbetriebnahme vorkommen) oder HS-Platine defekt
-    
+
+    ---
     Fühler durch Elektriker auf Anschlusspolarität überprüfen; 
     
     Rauchgasfühler oder linke HS-Platine austauschen;
@@ -282,8 +316,10 @@ Kein Text in der Anzeige
 
 * Rauchgasfühler Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Leitungsunterbrechung
 
+    ---
     Fühler anklemmen; Leitung und Klemmstellen kontrollieren;
 
     Fühler od. linke HS-Platine tauschen;
@@ -294,8 +330,10 @@ Kein Text in der Anzeige
 
 * Kesselfühler Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     Leitungen bzw. Fühler lt. Widerstandswertetabelle (siehe Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen.
 
 ```
@@ -304,8 +342,10 @@ Kein Text in der Anzeige
 
 * Kesselfühler Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     Fühler anschließen; Leitung und Klemmstellen kontrollieren;
 
     den defekten Fühler (Stecker auf der rechten I/O-Platine) mit einem anderen Fühler tauschen, kommt eine andere Störung ist der Fühler zu erneuern, kommt die selbe Störung ist die rechte-I/O Platine auszutauschen;
@@ -316,6 +356,7 @@ Kein Text in der Anzeige
 
 * Boilerfühler 1 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -326,6 +367,7 @@ Kein Text in der Anzeige
 
 * Boilerfühler 1 Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe 0031
@@ -335,6 +377,7 @@ Kein Text in der Anzeige
 
 * Boilerfühler 2 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -344,6 +387,7 @@ Kein Text in der Anzeige
 
 * Boilerfühler 2 Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe 0031
@@ -353,6 +397,7 @@ Kein Text in der Anzeige
 
 * Rücklauffühler Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -362,6 +407,7 @@ Kein Text in der Anzeige
 
 * Rücklauffühler Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung oder Fühler nicht vorhanden.
 
     siehe 0031
@@ -371,6 +417,7 @@ Kein Text in der Anzeige
 
 * Außenfühler Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -380,6 +427,7 @@ Kein Text in der Anzeige
 
 * Außenfühler Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe 0031
@@ -389,6 +437,7 @@ Kein Text in der Anzeige
 
 * Vorlauffühler HK1 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -398,6 +447,7 @@ Kein Text in der Anzeige
 
 * Vorlauffühler HK1 Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe 0031
@@ -407,6 +457,7 @@ Kein Text in der Anzeige
 
 * Vorlauffühler HK2 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe 0031
@@ -416,8 +467,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler HK2 Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
+    ---
     Fühler anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung in der Installationsebene überprüfen;
 
     Fühler oder Leitung lt. Widerstandswerte (Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen;
@@ -432,8 +485,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK1 Kurzschluss
 
+    ---
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    ---
     **bei Kurzschluss:** Klemmstellen überprüfen; der Widerstandsbereich der Fernbedienung muss in Stellung "Uhr" zwischen 3340 Ohm und 3626 Ohm liegen Raumtemperatur zwischen 5°C und 25°C);
     
     **bei Unterbrechung:** Fernbedienung anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung Nr.A6 (bzw. A16, A26, A36, A46, A56) in den Installateur-Einstellungen überprüfen; sonst die Fernbedienung oder die rechte I/O-Platine (bzw- HK-Modul) austauschen bzw. den Service verständigen;
@@ -446,6 +501,7 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK1 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
     siehe Nr 0032
@@ -456,6 +512,7 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK2 Kurzschluss
 
+    ---
     Bei Kurzschluss in der Fernbedienung oder in der Leitung
 
     siehe Nr 0032
@@ -465,6 +522,7 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK2 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
     siehe Nr 0032
@@ -477,8 +535,10 @@ Kein Text in der Anzeige
 
 * Rücklaufanhebtemperatur nicht erreicht 
 
+    ---
     Rücklaufanhebungspumpe defekt, zu klein, auf Stufe 1 gestellt. Die ersten 2 mal kommt eine Warnung, beim 3. mal schaltet die Anlage aus, Fehler muss behoben werden.
     
+    ---
     richtige Rücklauf-Fühlerposition überprüfen (siehe Heizungsschema); 
     
     Pumpe austauschen oder größere Pumpe verwenden bzw. auf größte Stufe schalten; 
@@ -493,8 +553,10 @@ Kein Text in der Anzeige
 
 * Brandschutzklappe schließt nicht
 
+    ---
     BSK nicht richtig angeschlossen, Fallschacht verstopft , Klappenmotor klemmt, Klappen-Motor oder -Endschalter defekt
 
+    ---
     BSK richtig anschließen (nur bei Inbetriebnahme), evt. seitl. Deckel der Fallstufe entfernen und diese entleeren und BSK im Handbetrieb testen; 
     
     durch Elektriker den BSK-Motor überprüfen bzw. austauschen lassen; Service verständigen und rechte I/O-Platine tauschen; 
@@ -507,8 +569,10 @@ Kein Text in der Anzeige
 
 * Anlage zu lange auf Lambda-Stop
 
+    ---
     Kontaktfehler der Lambdasonde oder Sicherung F30 oder Lambda-Sonde defekt.
-
+    
+    ---
     Lambda-Sonde sehr stark verschmutzt (reinigen), anschließend im Handbetrieb Nr. 34 eine Funktionskontrolle durchführen; 
     
     durch ElektrikerKlemmstellen und Stecker kontrollieren lassen; 
@@ -523,8 +587,10 @@ Kein Text in der Anzeige
 
 * Batterie leer, bitte tauschen
 
+    ---
     Puffer-Batterie für Datum/Uhrzeit wird leer
     
+    ---
     Batterie unbedingt während des Betriebes tauschen (kein Verlust von Datum/Uhrzeit); wird die Batterie im ausgeschaltetem Zustand gewechselt, müssen Datum/Uhrzeit neu eingegeben werden, die Parametrierung geht dabei nicht verloren; 
     
     auf guten Kontakt des Batteriehalters achten;
@@ -535,8 +601,10 @@ Kein Text in der Anzeige
 
 * Lambda-Sonde defekt
 
+    ---
     Kontaktfehler der Lambdasonde oder Sicherung F30 oder Lambda-Sonde defekt.
     
+    ---
     diese Störung kann nur nach einem Lambdasonden-Test (Hand Nr. 34) oder einer Kalibrierung (Hand Nr. 60) auftreten; 
     
     siehe Nr. 0038
@@ -547,8 +615,10 @@ Kein Text in der Anzeige
 
 * Unterdruck zu klein (zuerst erscheint die Meldung, nach 3 Minuten kommt Störung)
 
+    ---
     Die Drehzahlregelung des Saugzugs erreicht den gewünschten Kesselunterdruck nicht.
 
+    ---
     Unterdruckmessdose oder Saugzuggebläse defekt; 
     
     Unterdruckschlauch und Kesselröhrchen durchblasen (siehe Seite 3);
@@ -561,8 +631,10 @@ Kein Text in der Anzeige
 
 * maximale Füllzeit überschritten
 
+    ---
     kein Pelletstransport
     
+    ---
     Pelletstransport aus dem Lagerraum überprüfen: kontrollieren ob sich genügend Pellets im Lagerraum befinden; 
     
     den Wartungsdeckel an der Raumschnecke abschrauben und überprüfen ob sich die Schnecke und die Motorwelle drehen und Pellets gefördert werden; 
@@ -575,6 +647,7 @@ Kein Text in der Anzeige
 
 * Pufferfühler 1 / FremdwärmefühlerKurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe Nr. 0020 bis 0031
@@ -585,6 +658,7 @@ Kein Text in der Anzeige
 
 * Pufferfühler 1 / FremdwärmefühlerUnterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe Nr. 0020 bis 0031
@@ -595,8 +669,10 @@ Kein Text in der Anzeige
 
 * Initiator Rostüberwachung **nur bei HSV70S, 80S, 100S**
 
+    ---
     Nach einer Ascheaustragung konnte der Rost nicht geschlossen werden. Rost offen (Fremdkörper), Kesselputzeinrichtung steckt (verteert), Initiator-Rostüberwachung defekt, Abstand Initiator zu groß (Werkseinstellung 2mm)
     
+    ---
     siehe Seite 5 (Ascheaustragung / Wartung / Störung); Funktion der Ascheaustragung bzw. der Rostüberwachung im Handbetrieb (Nr. 1) überprüfen;
     
     konnte der Rost nicht schließen (Fremdkörper im Rost); 
@@ -615,6 +691,7 @@ Kein Text in der Anzeige
 
 * Pufferfühler 2 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
     siehe Nr. 0020 bis 0031
@@ -625,6 +702,7 @@ Kein Text in der Anzeige
 
 * Pufferfühler 2 Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
     siehe Nr. 0020 bis 0031
@@ -635,9 +713,13 @@ Kein Text in der Anzeige
 
 * GSM-Modul nicht angeschlossen
 
+    ---
     Unterbrechung der Flachbandkabelverbindung, des GSM-Verbindungskabels oder der Netzzuleitung 
     
-    Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modul austauschen
+    ---
+    Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; 
+    
+    Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modul austauschen
 
 ```
 0063
@@ -645,8 +727,10 @@ Kein Text in der Anzeige
 
 * GSM-Modul, Fehler im Modul
 
+    ---
     interne Verbindung zwischen GSM-Steuermodul und GSM-Sendemodul defekt
 
+    ---
     Verbindung kontrollieren sonst GSM-Modul austauschen
 
     
@@ -656,8 +740,10 @@ Kein Text in der Anzeige
 
 * GSM-Modul, keine SIM-Karte
 
+    ---
     im GSM-Sendemodul befindet sich keine SIM-Karte oder PIN-Abfrage nicht deaktiviert
 
+    ---
     SIM-Karte einsetzen bzw. PIN-Abfrage deaktivieren
 
 ```
