@@ -21,32 +21,36 @@ Kein Text in der Anzeige
 
 * Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht
 
-    Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine aufrechter I/O - Platine defekt
+    Sicherung F21 defekt, oder L1 fehlt, oder Verbindungs-Stecker von linker HS-Platine auf rechter I/O - Platine defekt
 
-    Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker
-zwischen linker HS-Platine (Klemme 25) und rechter I/O-Platine (Klemme 30 und 32) prüfen;
+    Sicherung F21 wechseln (siehe Aufkleber rechte I/O-Platine); 
+    
+    Netzanschluss L1 prüfen (Klemme 19 auf linker HS-Platine) oder Verbindungsstecker zwischen linker HS-Platine (Klemme 25) und rechter I/O-Platine (Klemme 30 und 32) prüfen;
 
 ```
-Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
+-*-
 ```
+* Grüne Lampen H11 und H12 auf rechter I/O-Platine leuchten nicht.
 
-* Flachbandkabel nicht ordnungsgemäß angesteckt oder defekt, Bedieneinheit oder rechte I/O-Platine defekt
+    Flachbandkabel nicht ordnungsgemäß angesteckt oder defekt, Bedieneinheit oder rechte I/O-Platine defekt
 
     Flachbandkabel, Bedieneinheit oder rechte I/O-Platine austauschen, sonst Service verständigen;
 
 ```
-2 schwarze Balken in der Anzeige
+-*-
 ```
+* 2 schwarze Balken in der Anzeige
 
-* kein EPROM vorhanden oder verkehrt eingesteckt oder Bedieneinheit defekt.
+    kein EPROM vorhanden oder verkehrt eingesteckt oder Bedieneinheit defekt.
 
-    richtigen EPROM auf Rückseite der Bedieneinheit einstecken (lt. Zeichnung auf dem Schutzblech der Bedieneinheit); falls EPROM verkehrteingesteckt war, muss das EPROM erneuert werden; Bedieneinheit austauschen; Service verständigen;
+    richtigen EPROM auf Rückseite der Bedieneinheit einstecken (lt. Zeichnung auf dem Schutzblech der Bedieneinheit); falls EPROM verkehrt eingesteckt war, muss das EPROM erneuert werden; Bedieneinheit austauschen; Service verständigen;
 
 ```
-Anzeigebeleuchtung fehlt
+----
 ```
+* Anzeigebeleuchtung fehlt
 
-* Flachbandkabel oder Bedieneinheit defekt
+    Flachbandkabel oder Bedieneinheit defekt
 
     Flachbandkabel oder Bedieneinheit austauschen
 
@@ -58,7 +62,11 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss oder Überlastung durch Pumpen oder Mischer; Verbindungsleitung zwischen rechter I/O Platine und linker HS-Platine fehlerhaft
     
-    Elektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; rechte I/O Platine tauschen sonst Service verständigen;
+    Elektriker verständigen; Kurzschluss beseitigen; defekte Pumpe od. Mischer austauschen; 
+    
+    Sicherung F25 wechseln (siehe Aufkleber rechte I/O-Platine); Verbindungsleitung zwischen rechter I/O-Platine (Klemme 30 auf 32) und linker HS-Platine (Klemme 25) überprüfen; 
+    
+    rechte I/O Platine tauschen sonst Service verständigen;
 
 ```
 0002
@@ -85,13 +93,13 @@ Anzeigebeleuchtung fehlt
     Überlastung des Motors ev. durch Fremdkörper oder elektronischer Motorschutz falsch eingestellt
 
     Fremdkörper beseitigen, in Wahlschalterstellung Hand Nr. 2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurückfahren, oder abgenützte Schneckengänge erneuern; 
-    
+
     elektronischen Motorschutz (Parameter R1a bzw. R2a bzw. Q9a) überprüfen; 
-    
+
     bei Ascheaustragung kann es auch von der Schwergängigkeit der Kesselputzeinrichtung oder der automatischen Flugascheaustragung kommen; 
-    
+
     Elektriker bzw. Service verständigen und rechte I/O-Platine tauschen;
-    
+
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
@@ -106,7 +114,9 @@ Anzeigebeleuchtung fehlt
     
     STB-Zuleitung durch Elektriker überprüfen lassen; im Stückgut-Betrieb mit Gebläse kann auch Sicherung F24 defekt sein;
     
-    Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    Service verständigen und rechte I/O-Platine tauschen; 
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0006
@@ -114,35 +124,35 @@ Anzeigebeleuchtung fehlt
 
 * Rücklaufzeit überschritten
 
-    Sperriger Teil konnte auch durch mehrmaliges Rückwärts-fahren ( Rücklaufzeit max.1min) der Schnecke nicht weiter transportiert werden, oder Endschalter-Deckel defekt 
-    
+    Sperriger Teil konnte auch durch mehrmaliges Rückwärts-fahren ( Rücklaufzeit max.1min) der Schnecke nicht weiter transportiert werden, oder Endschalter-Deckel defekt
+
     sperrigen Teil oder zu großes bzw. verunreinigtes Hackgut (Steine etc.) aus der Fallstufe entfernen;
-    
+
     Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen
 
 ```
 0007
 ```
 
-* Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10sek. kommt die Störung
+* Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10 sek. kommt die Störung
 
     Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
 
     sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. 
-    
+
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) 
-    
+
     Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
 
 ```
 0008
 ```
 
-* Brennraum überfüllt, zuerst erscheint eine Meldung, nach 30min. kommt die Störung
+* Brennraum überfüllt, zuerst erscheint eine Meldung, nach 30 min. kommt die Störung
 
-    Materialüberfüllung im Brennraum (seit 30min), Zündung defekt (siehe auch Nummer 0010) oder Brennmaterial zu feucht, zuviel Asche/Schlacke im Brennraum oder Endschalter-Vergaser defekt
+    Materialüberfüllung im Brennraum (seit 30 min), Zündung defekt (siehe auch Nummer 0010) oder Brennmaterial zu feucht, zuviel Asche/Schlacke im Brennraum oder Endschalter-Vergaser defekt
 
-    Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führung zumEndschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. austauschen lassen;
+    Brennraum (Hackgut) von Hand entleeren; Zündung und Ascheaustragung im Handbetrieb (Wahlschalter auf Hand) überprüfen; die Führung zum Endschalter auf Leichgängigkeit überprüfen, oder Endschalter (Anschlussklemmen und Kabel) durch Elektriker überprüfen bzw. austauschen lassen;
     
     Service verständigen und rechte I/O-Platine tauschen;
     
@@ -163,9 +173,9 @@ Anzeigebeleuchtung fehlt
     Verbindungsleitung zwischen rechter I/O-Platine (Klemme 34) und linker HS-Platine (Klemme 23) überprüfen;
 
     Sicherung F23 (für BSK-Motor und Zündung) überprüfen, sollte die Zündung im Handbetrieb funktionieren ist die Sicherung nicht defekt und es muß der Brandschutzklappenmotor getauscht werden;
-    
+
     Service verständigen und rechte I/O-Platine tauschen;
-    
+
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
     Nach Fehlerbehebung ENTER- Taste drücken ! Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
@@ -177,17 +187,22 @@ Anzeigebeleuchtung fehlt
 * Zündzeit überschritten
 
     die Rauchgastemperatur ist innerhalb der Zündversuchszeit (Parameter P11) nicht um den eingestellten Wert ( Parameter P5) angestiegen; 
-    
-    kein oder zu feuchtes Brennmaterial vorhanden; 
-    
-    zuviel Asche/Schlacke im Brennraum; Zündung defekt; 
-    
+
+    kein oder zu feuchtes Brennmaterial vorhanden;
+
+    zuviel Asche/Schlacke im Brennraum; Zündung defekt;
+
     Rauchgasfühler steckt nicht im Rauchrohr;
 
-    Brennmaterial kontrollieren und das Zündgerät in Wahlschalter Hand prüfen ob es noch heiß bläst; von Elektriker die Zündungs-Klemmstellen und Leitung überprüfen lassen; 
-    Montage des Rauchgasfühlers und Klemmstellen (Oxidation der Fühlerenden) überprüfen; 
-    
-    Ascheaustragung im Handbetrieb überprüfen; Service verständigen;
+    Brennmaterial kontrollieren und das Zündgerät in Wahlschalter Hand prüfen ob es noch heiß bläst;
+
+    von Elektriker die Zündungs-Klemmstellen und Leitung überprüfen lassen;
+
+    Montage des Rauchgasfühlers und Klemmstellen (Oxidation der Fühlerenden) überprüfen;
+
+    Ascheaustragung im Handbetrieb überprüfen;
+
+    Service verständigen;
 
 ```
 0011
@@ -198,7 +213,7 @@ Anzeigebeleuchtung fehlt
     Im Leistungsbrand sinkt die Rauchgastemperatur für die eingestellte Zeit (Nr.K8) unter den eingestellten Wert (Nr.K7).
 
     kein oder zu feuchtes Brennmaterial vorhanden oder zu viel Asche oder zu viel Schlacke im Brennraum; 
-    
+
     Problem beseitigen, Funktion der Motore und des Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
 
 ```
@@ -208,14 +223,14 @@ Anzeigebeleuchtung fehlt
 * Initiator Entaschung
 
     Ascheaustragung kann die eingestellten Umdrehungen (Nr.Q5 od. Q8) innerhalb von 150 Sekunden nicht erreichen. Initiator defekt, Abstand Initiator-Nocke zu groß. (Werkseinstellung 4mm)
-    
+
     siehe auch Seite 5 (Ascheaustragung / Wartung / Störung); 
-    
-    Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die Initiator-Anzeigemuss von 10 mal auf 9 mal usw. herunterzählen); 
-    
+
+    Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die Initiator-Anzeige muss von 10 mal auf 9 mal usw. herunterzählen);
+
     vom Elektriker Klemmen und Leitung prüfen lassen und den Initiator prüfen; Initiatorkabel von Klemme Nr. 63 abklemmen und dazwischen ein Multimeter klemmen, in Wahlschalterstellung Hand Nr. 2 mit der Taste +/- die Initiator-Nocke zum Initiator drehen (Initiator ein, Initiatorlampe leuchtet), Multimeter muss ca. 21 mA anzeigen und dann die Initiator-Nocke vom Initiator weg drehen (Initiator aus, Initiatorlampe leuchtet nicht), Multimeter muss ca.1,7 mA anzeigen; Initiator tauschen oder Service verständigen
 
-* nur bei HSV70S-100S - siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
+    **nur bei HSV70S-100S** - siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
 
 ```
 0013
@@ -223,17 +238,31 @@ Anzeigebeleuchtung fehlt
 
 * Überstrom Einschubschnecke
 
+    siehe 0015
+
 ```
 0014
 ```
 
 * Überstrom Raumaustragung
 
+    siehe 0015
+
 ```
 0015
 ```
 
 * Überstrom Aschenaustragung
+
+    Sperriges Teil im Schneckenkanal, oder Schneckengänge sind abgenutzt
+
+    Fremdkörper beseitigen
+
+    in WS-Hand Nr. 2, 3 oder 4 mit + oder -Taste die jewilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren)
+
+    eventuell abgenützte Schneckengänge erneuern
+
+    bei Ascheaustragung auch Kesselputzeinrichtung und Flugascheaustragung auf Leichtgängigkeit prüfen
 
 ```
 0016
@@ -243,7 +272,9 @@ Anzeigebeleuchtung fehlt
 
     Fühler falsch angeschlossen (kann nur bei Inbetriebnahme vorkommen) oder HS-Platine defekt
     
-    Fühler durch Elektriker auf Anschlusspolarität überprüfen; Rauchgasfühler oder linke HS-Platine austauschen;
+    Fühler durch Elektriker auf Anschlusspolarität überprüfen; 
+    
+    Rauchgasfühler oder linke HS-Platine austauschen;
 
 ```
 0017
@@ -253,7 +284,9 @@ Anzeigebeleuchtung fehlt
 
     Fühler nicht angeschlossen oder Leitungsunterbrechung
 
-    Fühler anklemmen; Leitung und Klemmstellen kontrollieren; Fühler od. linke HS-Platine tauschen;
+    Fühler anklemmen; Leitung und Klemmstellen kontrollieren;
+
+    Fühler od. linke HS-Platine tauschen;
 
 ```
 0018
@@ -273,7 +306,9 @@ Anzeigebeleuchtung fehlt
 
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
-    Fühler anschließen; Leitung und Klemmstellen kontrollieren; den defekten Fühler (Stecker auf der rechten I/O-Platine) mit einem anderen Fühler tauschen, kommt eine andere Störung ist der Fühler zu erneuern, kommt die selbe Störung ist die rechte-I/O Platine auszutauschen;
+    Fühler anschließen; Leitung und Klemmstellen kontrollieren;
+
+    den defekten Fühler (Stecker auf der rechten I/O-Platine) mit einem anderen Fühler tauschen, kommt eine andere Störung ist der Fühler zu erneuern, kommt die selbe Störung ist die rechte-I/O Platine auszutauschen;
 
 ```
 0020
@@ -283,6 +318,8 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
+
 ```
 0021
 ```
@@ -291,6 +328,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0022
 ```
@@ -299,6 +337,7 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0023
 ```
@@ -307,6 +346,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0024
 ```
@@ -315,6 +355,7 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0025
 ```
@@ -323,6 +364,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung im Fühler oder in der Leitung oder Fühler nicht vorhanden.
 
+    siehe 0031
 ```
 0026
 ```
@@ -331,6 +373,7 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0027
 ```
@@ -339,6 +382,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0028
 ```
@@ -347,6 +391,7 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0029
 ```
@@ -355,6 +400,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0030
 ```
@@ -363,27 +409,22 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe 0031
 ```
 0031
 ```
 
 * Vorlauffühler HK2 Unterbrechung
 
-    Sperriger Teil im Schneckenkanal oder Schneckegänge sind abgenützt. Unterbrechung im Fühler oder in der Leitung
+    Unterbrechung im Fühler oder in der Leitung
 
-    Fremdkörper beseitigen, in WS-Hand Nr. 2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren); 
-    
-    eventuell abgenützte Schneckengänge erneuern; bei Ascheaustragung auch Kesselputzeinrichtung und Flugascheaustragung auf Leichtgängigkeit prüfen; 
-    
     Fühler anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung in der Installationsebene überprüfen;
-    
-    Fühler oder Leitung lt. Widerstandswerte (Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen;
-    
-    den Stecker des als defekt angezeigten Fühlers (auf der rechten I/O-Platine) mit einem anderen Fühler-Stecker tauschen, kommt eine andere Störung ist der Fühler defekt und zu erneuern, kommt die selbe Störung ist die rechte I/O-Platine auszutauschen bzw. der Service zu verständigen;
-    
-    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zuerinnern;
 
-    Nach Fehlerbehebung ENTER- Taste drücken ! Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+    Fühler oder Leitung lt. Widerstandswerte (Kapitel Installateur-Einstellungen) durch Elektriker überprüfen lassen;
+
+    den Stecker des als defekt angezeigten Fühlers (auf der rechten I/O-Platine) mit einem anderen Fühler-Stecker tauschen, kommt eine andere Störung ist der Fühler defekt und zu erneuern, kommt die selbe Störung ist die rechte I/O-Platine auszutauschen bzw. der Service zu verständigen;
+
+    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zu erinnern;
 
 ```
 0032
@@ -393,13 +434,11 @@ Anzeigebeleuchtung fehlt
 
     Kurzschluss in der Fernbedienung oder in der Leitung
 
-    bei Kurzschluss: Klemmstellen überprüfen; der Widerstandsbereich der Fernbedienung muss in Stellung "Uhr" zwischen 3340 Ohm und 3626 Ohm liegen Raumtemperatur zwischen 5°C und 25°C);
+    **bei Kurzschluss:** Klemmstellen überprüfen; der Widerstandsbereich der Fernbedienung muss in Stellung "Uhr" zwischen 3340 Ohm und 3626 Ohm liegen Raumtemperatur zwischen 5°C und 25°C);
     
-    bei Unterbrechung: Fernbedienung anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung Nr.A6 (bzw. A16, A26, A36, A46, A56) in den Installateur-Einstellungen überprüfen; sonst die Fernbedienung oder die rechte I/O-Platine (bzw- HK-Modul) austauschen bzw. den Service verständigen;
+    **bei Unterbrechung:** Fernbedienung anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung Nr.A6 (bzw. A16, A26, A36, A46, A56) in den Installateur-Einstellungen überprüfen; sonst die Fernbedienung oder die rechte I/O-Platine (bzw- HK-Modul) austauschen bzw. den Service verständigen;
 
-    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zu erinnern; siehe Nr.0020 bis 0031
-
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zu erinnern;
 
 ```
 0033
@@ -446,7 +485,7 @@ Anzeigebeleuchtung fehlt
     
     Rücklaufmischer-Funktion überprüfen (wenn vorhanden); Installateur verständigen; 
     
-    ACHTUNG: beeinträchtigt Kessellebensdauer!
+    **ACHTUNG: beeinträchtigt Kessellebensdauer!**
 
 ```
 0037
@@ -458,7 +497,9 @@ Anzeigebeleuchtung fehlt
 
     BSK richtig anschließen (nur bei Inbetriebnahme), evt. seitl. Deckel der Fallstufe entfernen und diese entleeren und BSK im Handbetrieb testen; 
     
-    durch Elektriker den BSK-Motor überprüfen bzw. austauschen lassen; Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    durch Elektriker den BSK-Motor überprüfen bzw. austauschen lassen; Service verständigen und rechte I/O-Platine tauschen; 
+    
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0038
@@ -470,9 +511,11 @@ Anzeigebeleuchtung fehlt
 
     Lambda-Sonde sehr stark verschmutzt (reinigen), anschließend im Handbetrieb Nr. 34 eine Funktionskontrolle durchführen; 
     
-    durch ElektrikerKlemmstellen und Stecker kontrollieren lassen; Sicherung F30 tauschen; Lambda-Sonde austauschen; 
+    durch ElektrikerKlemmstellen und Stecker kontrollieren lassen; 
     
-    die Anlage kann überbrückungsweise in der Installateur-Einstellungen Nr. D4 auf `ohne Lambda ́ parametriert werden bis die Lambda-Sonde getauscht ist;
+    Sicherung F30 tauschen; Lambda-Sonde austauschen; 
+    
+    die Anlage kann überbrückungsweise in der Installateur-Einstellungen Nr. D4 auf `ohne Lambda ́ parametriert werden bis die Lambda-Sonde getauscht ist
 
 ```
 0039
@@ -482,7 +525,9 @@ Anzeigebeleuchtung fehlt
 
     Puffer-Batterie für Datum/Uhrzeit wird leer
     
-    Batterie unbedingt während des Betriebes tauschen (kein Verlust von Datum/Uhrzeit); wird die Batterie im ausgeschaltetem Zustand gewechselt, muss das Datum/Uhrzeit neu eingegeben werden, die Parametrierung geht dabei nicht verloren; auf guten Kontakt des Batteriehalters achten;
+    Batterie unbedingt während des Betriebes tauschen (kein Verlust von Datum/Uhrzeit); wird die Batterie im ausgeschaltetem Zustand gewechselt, müssen Datum/Uhrzeit neu eingegeben werden, die Parametrierung geht dabei nicht verloren; 
+    
+    auf guten Kontakt des Batteriehalters achten;
 
 ```
 0040
@@ -500,13 +545,15 @@ Anzeigebeleuchtung fehlt
 0042
 ```
 
-* Unterdruck zu klein zuerst erscheint die Meldung, nach 3 Minuten kommt Störung
+* Unterdruck zu klein (zuerst erscheint die Meldung, nach 3 Minuten kommt Störung)
 
     Die Drehzahlregelung des Saugzugs erreicht den gewünschten Kesselunterdruck nicht.
 
     Unterdruckmessdose oder Saugzuggebläse defekt; 
     
-    Unterdruckschlauch und Kesselröhrchen durchblasen (siehe Seite 3); Klemmstellen, Leitungen und Stecker kontrollieren;
+    Unterdruckschlauch und Kesselröhrchen durchblasen (siehe Seite 3);
+    
+    Klemmstellen, Leitungen und Stecker kontrollieren;
 
 ```
 0043
@@ -520,7 +567,7 @@ Anzeigebeleuchtung fehlt
     
     den Wartungsdeckel an der Raumschnecke abschrauben und überprüfen ob sich die Schnecke und die Motorwelle drehen und Pellets gefördert werden; 
     
-    eventuell überprüfen ob es zu einer Brückenbildungim Lagerraum gekommen ist;
+    eventuell überprüfen ob es zu einer Brückenbildungim Lagerraum gekommen ist
 
 ```
 0044
@@ -552,9 +599,15 @@ Anzeigebeleuchtung fehlt
     
     siehe Seite 5 (Ascheaustragung / Wartung / Störung); Funktion der Ascheaustragung bzw. der Rostüberwachung im Handbetrieb (Nr. 1) überprüfen;
     
-    konnte der Rost nicht schließen (Fremdkörper im Rost); steckt die Kesselputz-Einrichtung; ist der Initiator-Rostüberwachung defekt (siehe Initiator Prüfung Störung Nr. 12, jedoch mit Klemme Nr. 97); 
+    konnte der Rost nicht schließen (Fremdkörper im Rost); 
     
-    ist Abstand Initiator-Nocke richtig (Werkseinstellung 2mm); bei HSV70S-100S siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
+    steckt die Kesselputz-Einrichtung;
+    
+    ist der Initiator-Rostüberwachung defekt (siehe Initiator Prüfung Störung Nr. 12, jedoch mit Klemme Nr. 97);
+    
+    ist Abstand Initiator-Nocke richtig (Werkseinstellung 2mm);
+    
+    bei HSV70S-100S siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
 
 ```
 0047
@@ -584,7 +637,7 @@ Anzeigebeleuchtung fehlt
 
     Unterbrechung der Flachbandkabelverbindung, des GSM-Verbindungskabels oder der Netzzuleitung 
     
-    Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modulaustauschen
+    Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modul austauschen
 
 ```
 0063
