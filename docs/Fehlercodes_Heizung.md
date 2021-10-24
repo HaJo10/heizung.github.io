@@ -113,7 +113,7 @@ Anzeigebeleuchtung fehlt
 * Endschalter Deckel offen,zuerst erscheint eine Meldung, nach 10sek. kommt die Störung
 
     Sperriger Teil konnte auch durch eine Rückwärtsfahrt der Schnecke nicht weitertransportiert werden oder Endschalter-Deckel defekt od. Parameter Kesseltyp falsch
-    
+
     sperrigen Teil aus der Fallstufe entfernen, oder Endschalter-Deckel (Anschlussklemmen und Kabel) durch Elektriker überprüfen oder austauschen lassen, sonst Service verständigen und rechte I/O-Platine tauschen. ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende derStörungsbeschreibung ) Weiters Parameter Z1 (Kesseltyp) überprüfen und gegebenenfalls richtig stellen.
 
 ```
@@ -177,7 +177,7 @@ Brandschutzklappe öffnet nicht
 
     kein oder zu feuchtes Brennmaterial vorhanden oder zu viel Asche oder zu viel Schlacke im Brennraum; 
     
-    Problem beseitigen, Funktion der Motore unddes Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
+    Problem beseitigen, Funktion der Motore und des Gebläses und der Entaschung im Handbetrieb überprüfen (Wahlschalter auf Hand) oder Brennkammer reinigen
 
 ```
 0012
@@ -191,7 +191,7 @@ Brandschutzklappe öffnet nicht
     
     Funktion der Ascheaustragung im Handbetrieb (Nr.1) überprüfen (die Initiator-Anzeigemuss von 10 mal auf 9 mal usw. herunterzählen); 
     
-    vom Elektriker Klemmen und Leitung prüfen lassen und den Initiator prüfen; Initiatorkabel von Klemme Nr.63 abklemmen und dazwischen ein Multimeter klemmen, in Wahlschalterstellung Hand Nr.2 mit der Taste +/- die Initiator-Nocke zum Initiator drehen (Initiator ein, Initiatorlampe leuchtet), Multimeter muss ca.21mA anzeigen und dann die Initiator-Nocke vom Initiator weg drehen (Initiator aus, Initiatorlampe leuchtet nicht), Multimeter muss ca.1,7mA anzeigen; Initiator tauschen oder Service verständigen
+    vom Elektriker Klemmen und Leitung prüfen lassen und den Initiator prüfen; Initiatorkabel von Klemme Nr. 63 abklemmen und dazwischen ein Multimeter klemmen, in Wahlschalterstellung Hand Nr. 2 mit der Taste +/- die Initiator-Nocke zum Initiator drehen (Initiator ein, Initiatorlampe leuchtet), Multimeter muss ca. 21 mA anzeigen und dann die Initiator-Nocke vom Initiator weg drehen (Initiator aus, Initiatorlampe leuchtet nicht), Multimeter muss ca.1,7 mA anzeigen; Initiator tauschen oder Service verständigen
 
 * nur bei HSV70S-100S - siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
 
@@ -349,7 +349,7 @@ Brandschutzklappe öffnet nicht
 
     Sperriger Teil im Schneckenkanal oder Schneckegänge sind abgenützt. Unterbrechung im Fühler oder in der Leitung
 
-    Fremdkörper beseitigen, in WS-Hand Nr.2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren); 
+    Fremdkörper beseitigen, in WS-Hand Nr. 2, 3 oder 4, mit + oder - Taste die jeweilige Schnecke vor oder zurück fahren (Motorstromanzeige kontrollieren); 
     
     eventuell abgenützte Schneckengänge erneuern; bei Ascheaustragung auch Kesselputzeinrichtung und Flugascheaustragung auf Leichtgängigkeit prüfen; 
     
@@ -361,7 +361,7 @@ Brandschutzklappe öffnet nicht
     
     diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zuerinnern;
 
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+    Nach Fehlerbehebung ENTER- Taste drücken ! Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
 
 ```
 0032
@@ -371,6 +371,14 @@ Brandschutzklappe öffnet nicht
 
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    bei Kurzschluss: Klemmstellen überprüfen; der Widerstandsbereich der Fernbedienung muss in Stellung "Uhr" zwischen 3340 Ohm und 3626 Ohm liegen Raumtemperatur zwischen 5°C und 25°C);
+    
+    bei Unterbrechung: Fernbedienung anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung Nr.A6 (bzw. A16, A26, A36, A46, A56) in den Installateur-Einstellungen überprüfen; sonst die Fernbedienung oder die rechte I/O-Platine (bzw- HK-Modul) austauschen bzw. den Service verständigen;
+
+    diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zu erinnern; siehe Nr.0020 bis 0031
+
+    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+
 ```
 0033
 ```
@@ -378,6 +386,8 @@ Brandschutzklappe öffnet nicht
 * Fernbedienung HK1 Unterbrechung
 
     Unterbrechung in der Fernbedienung oder in der Leitung
+
+    siehe Nr 0032
 
 ```
 0034
@@ -387,6 +397,7 @@ Brandschutzklappe öffnet nicht
 
     Bei Kurzschluss in der Fernbedienung oder in der Leitung
 
+    siehe Nr 0032
 ```
 0035
 ```
@@ -395,17 +406,25 @@ Brandschutzklappe öffnet nicht
 
     Unterbrechung in der Fernbedienung oder in der Leitung
 
+    siehe Nr 0032
+
+    
+
 ```
 0036
 ```
 
-* Rücklaufanhebtemperatur nicht erreicht Rücklaufanhebungspumpe defekt, zu klein, auf Stufe 1 gestellt. Die ersten 2mal kommt eine Warnung, beim 3mal schaltet die Anlage aus, Fehler muss behoben werden.
+* Rücklaufanhebtemperatur nicht erreicht 
+
+    Rücklaufanhebungspumpe defekt, zu klein, auf Stufe 1 gestellt. Die ersten 2 mal kommt eine Warnung, beim 3. mal schaltet die Anlage aus, Fehler muss behoben werden.
     
     richtige Rücklauf-Fühlerposition überprüfen (siehe Heizungsschema); 
     
     Pumpe austauschen oder größere Pumpe verwenden bzw. auf größte Stufe schalten; 
     
-    Rücklaufmischer-Funktion überprüfen (wenn vorhanden); Installateur verständigen;ACHTUNG: beeinträchtigt Kessellebensdauer!
+    Rücklaufmischer-Funktion überprüfen (wenn vorhanden); Installateur verständigen; 
+    
+    ACHTUNG: beeinträchtigt Kessellebensdauer!
 
 ```
 0037
@@ -417,7 +436,7 @@ Brandschutzklappe öffnet nicht
 
     BSK richtig anschließen (nur bei Inbetriebnahme), evt. seitl. Deckel der Fallstufe entfernen und diese entleeren und BSK im Handbetrieb testen; 
     
-    durchElektriker den BSK-Motor überprüfen bzw. austauschen lassen; Service verständigen und rechte I/O-Platine tauschen;( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    durch Elektriker den BSK-Motor überprüfen bzw. austauschen lassen; Service verständigen und rechte I/O-Platine tauschen; ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 0038
@@ -427,11 +446,11 @@ Brandschutzklappe öffnet nicht
 
     Kontaktfehler der Lambdasonde oder Sicherung F30 oder Lambda-Sonde defekt.
 
-    Lambda-Sonde sehr stark verschmutzt (reinigen), anschließend im Handbetrieb Nr.34 eine Funktionskontrolle durchführen; 
+    Lambda-Sonde sehr stark verschmutzt (reinigen), anschließend im Handbetrieb Nr. 34 eine Funktionskontrolle durchführen; 
     
     durch ElektrikerKlemmstellen und Stecker kontrollieren lassen; Sicherung F30 tauschen; Lambda-Sonde austauschen; 
     
-    die Anlage kann überbrückungsweise in der Installateur-Einstellungen Nr.D4 auf `ohne Lambda ́ parametriert werden bis die Lambda-Sonde getauscht ist;
+    die Anlage kann überbrückungsweise in der Installateur-Einstellungen Nr. D4 auf `ohne Lambda ́ parametriert werden bis die Lambda-Sonde getauscht ist;
 
 ```
 0039
@@ -451,13 +470,15 @@ Brandschutzklappe öffnet nicht
 
     Kontaktfehler der Lambdasonde oder Sicherung F30 oder Lambda-Sonde defekt.
     
-    diese Störung kann nur nach einem Lambdasonden-Test (Hand Nr.34) oder einer Kalibrierung (Hand Nr.60) auftreten; siehe Nr.0038
+    diese Störung kann nur nach einem Lambdasonden-Test (Hand Nr. 34) oder einer Kalibrierung (Hand Nr. 60) auftreten; 
+    
+    siehe Nr. 0038
 
 ```
 0042
 ```
 
-* Unterdruck zu kleinzuerst erscheint die Meldung,nach 3 Minuten kommt Störung
+* Unterdruck zu klein zuerst erscheint die Meldung, nach 3 Minuten kommt Störung
 
     Die Drehzahlregelung des Saugzugs erreicht den gewünschten Kesselunterdruck nicht.
 
@@ -487,6 +508,8 @@ Brandschutzklappe öffnet nicht
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0045
 ```
@@ -495,17 +518,19 @@ Brandschutzklappe öffnet nicht
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0046
 ```
 
-* Initiator Rostüberwachungnur bei HSV70S, 80S, 100S
+* Initiator Rostüberwachung **nur bei HSV70S, 80S, 100S**
 
     Nach einer Ascheaustragung konnte der Rost nicht geschlossen werden. Rost offen (Fremdkörper), Kesselputzeinrichtung steckt (verteert), Initiator-Rostüberwachung defekt, Abstand Initiator zu groß (Werkseinstellung 2mm)
     
-    siehe Seite 5 (Ascheaustragung / Wartung / Störung); Funktion der Ascheaustragung bzw. der Rostüberwachung im Handbetrieb (Nr.1) überprüfen;
+    siehe Seite 5 (Ascheaustragung / Wartung / Störung); Funktion der Ascheaustragung bzw. der Rostüberwachung im Handbetrieb (Nr. 1) überprüfen;
     
-    konnte der Rost nicht schließen (Fremdkörper im Rost); steckt die Kesselputz-Einrichtung; ist der Initiator-Rostüberwachung defekt (siehe Initiator Prüfung Störung Nr.12, jedoch mit Klemme Nr.97); 
+    konnte der Rost nicht schließen (Fremdkörper im Rost); steckt die Kesselputz-Einrichtung; ist der Initiator-Rostüberwachung defekt (siehe Initiator Prüfung Störung Nr. 12, jedoch mit Klemme Nr. 97); 
     
     ist Abstand Initiator-Nocke richtig (Werkseinstellung 2mm); bei HSV70S-100S siehe: kurzzeitiger Notbetrieb bei HSV70S, 80S, 100S "kein Hardware-Test - Initiator" am Ende der Störungsbeschreibung
 
@@ -517,6 +542,8 @@ Brandschutzklappe öffnet nicht
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0048
 ```
@@ -525,13 +552,17 @@ Brandschutzklappe öffnet nicht
 
     Unterbrechung im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0062
 ```
 
 * GSM-Modul nicht angeschlossen
 
-    Unterbrechung der Flachbandkabelverbindung, des GSM-Verbindungskabels oder der Netzzuleitung Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modulaustauschen
+    Unterbrechung der Flachbandkabelverbindung, des GSM-Verbindungskabels oder der Netzzuleitung 
+    
+    Flachband- bzw. GSM-Kabelverbindung prüfen und gegebenenfalls tauschen; Netzzuleitung (230VAC) zum GSM-Modul überprüfen; GSM-Modulaustauschen
 
 ```
 0063
@@ -541,11 +572,8 @@ Brandschutzklappe öffnet nicht
 
     interne Verbindung zwischen GSM-Steuermodul und GSM-Sendemodul defekt
 
-    bei Kurzschluss: Klemmstellen überprüfen; der Widerstandsbereich der Fernbedienung muss in Stellung "Uhr" zwischen 3340 Ohm und siehe Nr.0020 bis 0031 Verbindung kontrollieren sonst GSM-Modul austauschen 3626 Ohm liegen (Raumtemperatur zwischen 5°C und 25°C);
-    
-    bei Unterbrechung: Fernbedienung anschließen; Leitung und Klemmstellen kontrollieren bzw. die Parametrierung Nr.A6 (bzw. A16, A26, A36, A46, A56) in den Installateur-Einstellungen überprüfen; sonst die Fernbedienung oder die rechte I/O-Platine (bzw- HK-Modul) austauschen bzw. den Service verständigen;diese Störung kann durch drücken der ENTER-Taste überbrückt werden, jedoch blinkt die Störungsanzeige um den Kunden an die Reparatur zu erinnern; siehe Nr.0020 bis 0031
+    Verbindung kontrollieren sonst GSM-Modul austauschen
 
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
     
 ```
 0064
@@ -583,7 +611,7 @@ Brandschutzklappe öffnet nicht
 
 * Fehler Parametersatz,Parameter prüfen
 
-    internen Fehler im Parameterspeicher aufgetreten
+    interner Fehler im Parameterspeicher aufgetreten
     
     Paramtereinstellungen überprüfen und richtig stellen, bei erneutem Fehler Kesselbedieneinheit austauschen
 
@@ -593,7 +621,9 @@ Brandschutzklappe öffnet nicht
 
 * Übertemperatur Brennstofflager
 
-    Temperatur im Brennstofflagerraum zu hoch. beim Ansprechen der Warneinrichtung ist der Brennstofflagerraum auf diverse Erwärmungen zu kontrollieren und gegebenenfalls weitere Maßnahmen zu treffen (Feuerwehr verständigen)
+    Temperatur im Brennstofflagerraum zu hoch. 
+    
+    beim Ansprechen der Warneinrichtung ist der Brennstofflagerraum auf diverse Erwärmungen zu kontrollieren und gegebenenfalls weitere Maßnahmen zu treffen (Feuerwehr verständigen)
 
 ```
 0081
@@ -603,6 +633,8 @@ Brandschutzklappe öffnet nicht
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0082
 ```
@@ -610,6 +642,8 @@ Brandschutzklappe öffnet nicht
 * Fühler TÜB Unterbrechung
 
     Unterbrechung im Fühler oder in der Leitung
+
+    siehe Nr. 0020 bis 0031
 
 ```
 0083
@@ -621,7 +655,7 @@ Brandschutzklappe öffnet nicht
     
     den Kessel und das Rauchrohr auf Verschmutzung überprüfen und gegebenenfalls reinigen; bei einem Rückbrand ist die Dichtheit der Brandschutzklappe zu überprüfen; 
     
-    bei HSV70S, 80S, 100S den Schlauch an der Unterdruckdose abziehen und das Kesselröhrchen mit dem Mund durchblasen bzw. Saugzugventillator überprüfen;
+    **bei HSV70S, 80S, 100S** den Schlauch an der Unterdruckdose abziehen und das Kesselröhrchen mit dem Mund durchblasen bzw. Saugzugventillator überprüfen;
 
 ```
 0084
@@ -631,6 +665,8 @@ Brandschutzklappe öffnet nicht
 
     Kurzschluss im Fühler oder in der Leitung
 
+    siehe Nr. 0020 bis 0031
+
 ```
 0085
 ```
@@ -638,6 +674,8 @@ Brandschutzklappe öffnet nicht
 * Fühler ETÜ Unterbrechung
 
     Unterbrechung im Fühler oder in der Leitung
+
+    siehe Nr. 0020 bis 0031
 
 ```
 0086
@@ -787,9 +825,7 @@ Brandschutzklappe öffnet nicht
 
     Unterbrechung in der Fernbedienung oder in der Leitung
 
-    siehe Nr.0020 bis 0031siehe Nr.0020 bis 0031 siehe Nr.0020 bis 0031
-
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+    siehe Nr. 0020 bis 0031
     
 ```
 0113
@@ -1125,6 +1161,10 @@ Brandschutzklappe öffnet nicht
 
     Unterspannung bei L2 und L3. Ausfall der Stromversorgung Sicherung im Zählerkasten defekt.
 
+    Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
+
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
+
 ```
 5042
 ```
@@ -1133,6 +1173,10 @@ Brandschutzklappe öffnet nicht
 
     siehe Fehler 5040 und 5043
 
+    Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
+
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
+
 ```
 5043
 ```
@@ -1140,6 +1184,10 @@ Brandschutzklappe öffnet nicht
 * L3 fehlt bei der Netzzuleitung
 
     Unterspannung oder Ausfall von L3 der Netzzuleitung
+
+    Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
+
+    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
 
 ```
 5044
@@ -1165,14 +1213,18 @@ Brandschutzklappe öffnet nicht
 5100..5107 Elektronik
 ```
 
+* Service verständigen; linke HS-Platine austauschen
 
 ```
 5110..5117 Elektronik
 ```
 
+* Service verständigen; linke HS-Platine austauschen
+
 ```
 5120..5127 Elektronik
 ```
+* Service verständigen; linke HS-Platine austauschen
 
 ```
 5130
@@ -1182,6 +1234,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F11, F12 und F13 defekt
 
+    siehe 5145
+
 ```
 5131
 ```
@@ -1189,6 +1243,8 @@ Brandschutzklappe öffnet nicht
 * Einschubmotor läuft nicht
 
     Motorkabel oder Sicherung F12 und F13 defekt
+
+    siehe 5145
 
 ```
 5132
@@ -1198,6 +1254,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F11 u. F13 defekt
 
+    siehe 5145
+
 ```
 5133
 ```
@@ -1205,6 +1263,8 @@ Brandschutzklappe öffnet nicht
 * Einschubmotor läuft nicht
 
     Motorkabel oder Sicherung F13 defekt
+
+    siehe 5145
 
 ```
 5134
@@ -1214,6 +1274,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F11 und F12 defekt
 
+    siehe 5145
+
 ```
 5135
 ```
@@ -1221,6 +1283,8 @@ Brandschutzklappe öffnet nicht
 * Einschubmotor läuft nicht
 
     Motorkabel oder Sicherung F12 defekt
+
+    siehe 5145
 
 ```
 5136
@@ -1230,6 +1294,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F11 defekt
 
+    siehe 5145
+
 ```
 5140
 ```
@@ -1238,6 +1304,7 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F14, F15 und F16 defekt
 
+    siehe 5145
 ```
 5141
 ```
@@ -1245,6 +1312,8 @@ Brandschutzklappe öffnet nicht
 * Raumaustragungsmotor läuft nicht
 
     Motorkabel oder Sicherung F15 und F16 defekt
+
+    siehe 5145
 
 ```
 5142
@@ -1254,6 +1323,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F14 u. F16 defekt
 
+    siehe 5145
+
 ```
 5143
 ```
@@ -1261,6 +1332,8 @@ Brandschutzklappe öffnet nicht
 * Raumaustragungsmotor läuft nicht
 
     Motorkabel oder Sicherung F16 defekt
+
+    siehe 5145
 
 ```
 5144
@@ -1270,6 +1343,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F14 und F15 defekt
 
+    siehe 5145
+
 ```
 5145
 ```
@@ -1278,7 +1353,7 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F15 defekt
 
-    Service verständigen; linke HS-Platine austauschenentsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen;
+    sprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen;
     
     den Stecker des als defekt angezeigten Motors ( auf der HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS - Platine auszutauschen bzw. der Service zu verständigen.
 
@@ -1293,6 +1368,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F14 defekt
 
+    siehe 5156
+
 ```
 5150
 ```
@@ -1301,6 +1378,7 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F17, F18 und F19 defekt
 
+    siehe 5156
 ```
 5151
 ```
@@ -1308,6 +1386,8 @@ Brandschutzklappe öffnet nicht
 * Ascheaustragungsmotor läuft nicht
 
     Motorkabel oder Sicherung F18 und F19
+
+    siehe 5156
 
 ```
 5152
@@ -1317,6 +1397,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F17 u. F19
 
+    siehe 5156
+
 ```
 5153
 ```
@@ -1324,6 +1406,8 @@ Brandschutzklappe öffnet nicht
 * Ascheaustragungsmotor läuft nicht
 
     Motorkabel oder Sicherung F19 defekt
+
+    siehe 5156
 
 ```
 5154
@@ -1333,6 +1417,8 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F17 und F18 defekt
 
+    siehe 5156
+
 ```
 5155
 ```
@@ -1340,6 +1426,8 @@ Brandschutzklappe öffnet nicht
 * Ascheaustragungsmotor läuft nicht
 
     Motorkabel oder Sicherung F18 defekt
+
+    siehe 5156
 
 ```
 5156
@@ -1349,30 +1437,35 @@ Brandschutzklappe öffnet nicht
 
     Motorkabel oder Sicherung F17 defekt
 
+    Entsprechende Sicherung überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen.
+
+    Den Stecker des als defekt angezeigten Motors (auf der HS-Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
+
+    (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
 ```
 5160..5167 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5170..5177 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5180..5187 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5200..5207 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5210..5217 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5220..5227 Elektronik
 ```
-
+* Service verständigen, linke HS-Platine austauschen
 ```
 5230..5237 
 ```
@@ -1381,12 +1474,20 @@ Brandschutzklappe öffnet nicht
 
     Sicherungen F11, F12 und F13 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
 
+    entsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber); L1 des Motorkabels überprüfen;Nulleiter am Motor-Sternpunkt bzw. an der Nulleiterschiene anschließen (unbedingt 5-adriges Kabel verwenden!); 
+    
+    den Stecker des als defekt angezeigten Motors (auf der linken HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
+
+    (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
+
 ```
 5240..5247 
 ```
 * Raumaustragungsmotor läuft nicht
 
     Sicherungen F14, F15 und F16 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
+
+    siehe 5230..5237 
 
 ```
 5250..5257 
@@ -1395,17 +1496,21 @@ Brandschutzklappe öffnet nicht
 
     Sicherungen F17, F18 und F19 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
 
+    siehe 5230..5237 
+
 ```
 5300
 ```
-
 * Primärluftgebläse läuft nicht oder läuft dauernd
 
+    siehe 5302
 ```
 5301
 ```
 
 * Rücklaufanhebepumpe läuft nicht oder läuft dauernd
+
+    siehe 5302
 
 ```
 5302
@@ -1413,14 +1518,25 @@ Brandschutzklappe öffnet nicht
 
 * Primärluftgebläse oder Rücklaufanhebepumpe läuft nicht oder läuft dauernd
 
+    Kurzschluss bei Primärluftgebläse oder Rücklaufanhebepumpe entfernen;
+
+    Sicherung F10 überprüfen und eventuell wechseln (siehe Aufkleber);
+
+    Verbindung zum Motor herstellen; 
+    
+    kann der Fehler dadurch nicht behoben werden oder läuft das Gebläse bzw. die Pumpe dauernd, ist die linke HS-Platine zu tauschen bzw. der Service zu verständigen
+
+    (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung) 
 ```
 5304
 ```
 
 * Saugzuggebläse läuft nicht oder läuft dauernd (bei HSV 70S, 80S, 100S)
 
-    Kurzschluss bei Saugzuggebläse oder Sicherung F40 defekt oder Verbindung zum Saugzuggebläse unterbrochen oder HS-Erweiterungsplatine defekt oder Parameter Kesseltyp falsch bei aufgesteckter HS-Erweiterungsplatine die Sicherung F40 wechseln (siehe Aufkleber) oder Verbindung zum Gebläse herstellen; 
+    Kurzschluss bei Saugzuggebläse oder Sicherung F40 defekt oder Verbindung zum Saugzuggebläse unterbrochen oder HS-Erweiterungsplatine defekt oder Parameter Kesseltyp falsch 
     
+    bei aufgesteckter HS-Erweiterungsplatine die Sicherung F40 wechseln (siehe Aufkleber) oder Verbindung zum Gebläse herstellen; 
+
     HS-Erweiterungsplatine tauschen; (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung) bzw. Parameter Z1 (Kesseltyp) überprüfen und richtig stellen;
 
 ```
@@ -1448,17 +1564,21 @@ Brandschutzklappe öffnet nicht
 6002
 ```
 
-* Datenübertragung zur linken HS-Platine Sicherung F20 oder linke HS-Platine defekt, oder Flachbandkabelverbindung oder Bedieneinheit defekt
+* Datenübertragung zur linken HS-Platine 
 
-    ist die Sicherung F20 defekt (grüne Lampe H2 auf linker HS-Platine leuchtet nicht), dann neue Sicherung einsetzen, sonst linke HS-Platine, Flachbandkabel oder Bedieneinheit tauschen; 
-    war die Sicherung F20 defekt bzw. nach HS-Platinentausch sofort die Lambdasondenheizung in Wahlschalter Hand Nr.34 mit Messgerät prüfen dh. die + Taste drücken und zwischen Klemme 16 und 17 die Spannung (Soll 5 - 12 VAC) und die Stromaufnahme (Soll 1,0 - 3 A AC) messen; ist der Wert unter 5 VAC oder über 4 A AC ist die Lambdasonde defekt und muss getauscht werden; 
-    die Anlage kann Überbrückungsweise in der Installateur-Einstellungen Nr.D4 auf " ohne Lambda" parametriert werden bis die Sonde getauscht ist;
+    Sicherung F20 oder linke HS-Platine defekt, oder Flachbandkabelverbindung oder Bedieneinheit defekt
+
+    ist die Sicherung F20 defekt (grüne Lampe H2 auf linker HS-Platine leuchtet nicht), dann neue Sicherung einsetzen, sonst linke HS-Platine, Flachbandkabel oder Bedieneinheit tauschen;
+
+    war die Sicherung F20 defekt bzw. nach HS-Platinentausch sofort die Lambdasondenheizung in Wahlschalter Hand Nr.34 mit Messgerät prüfen dh. die + Taste drücken und zwischen Klemme 16 und 17 die Spannung (Soll 5 - 12 VAC) und die Stromaufnahme (Soll 1,0 - 3 A AC) messen; ist der Wert unter 5 VAC oder über 4 A AC ist die Lambdasonde defekt und muss getauscht werden;
+
+    die Anlage kann Überbrückungsweise in der Installateur-Einstellungen Nr. D4 auf " ohne Lambda" parametriert werden bis die Sonde getauscht ist;
 
 ```
 6003
 ```
 
-* Datenübertragung zur unteren (teilbestückten) HS-Platinenur bei HSV70S, 80S, 100S
+* Datenübertragung zur unteren (teilbestückten) HS-Platine **nur bei HSV70S, 80S, 100S**
 
     Flachbandkabelverbindung oder untere (teilbestückten) HS-Platine defekt
 
@@ -1490,15 +1610,19 @@ Brandschutzklappe öffnet nicht
 6102
 ```
 
-* Software-Version linke HS-Platine falsch linke HS-Platine ist zur verwendeten Software nicht kompatibel
+* Software-Version linke HS-Platine falsch 
 
-    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung); Service verständigen; HS-Platine austauschen
+    linke HS-Platine ist zur verwendeten Software nicht kompatibel
+
+    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung); 
+    
+    Service verständigen; HS-Platine austauschen
 
 ```
 6103
 ```
 
-* Software-Version der unteren (teilbestückten) HS-Platine falschnur bei HSV70S, 80S, 100S
+* Software-Version der unteren (teilbestückten) HS-Platine falsch **nur bei HSV70S, 80S, 100S**
 
     teilbestückte HS-Platine ist zur verwendeten Software nicht kompatibel
 
@@ -1522,8 +1646,8 @@ Brandschutzklappe öffnet nicht
 
     an einem oder mehreren Motorabgängen ist die Phase L3 belegt obwohl eine einphasig Anlage parametriert wurde
 
-    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung), bei einphasiger Ausführung darf an der HS-Platine (Klemmen 9,12,15) nichts angeschlossen werden; 
-    
+    Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung), bei einphasiger Ausführung darf an der HS-Platine (Klemmen 9,12,15) nichts angeschlossen werden;
+
     Service verständigen; HS-Platine austauschen
 
 ```
@@ -1544,6 +1668,8 @@ Brandschutzklappe öffnet nicht
 
     kein Problem, nur für Protokollzwecke
 
+    siehe 1000
+
 ```
 1000
 ```
@@ -1552,15 +1678,21 @@ Brandschutzklappe öffnet nicht
 
     kein Problem, nur für Protokollzwecke
 
-    kurzzeitiger Notbetrieb "kein Hardware-Test"
+    keine Maßnahmen erforderlich; tritt diese Meldung sehr häufig auf ist der Elektriker zu verständigen (sehr viele Stromausfälle, schlechte Klemmstelle in der Netzzuleitung, Verbindungen zw. HS und I/O-Platine sowie sämtliche Flachbandkabelverbindungen überprüfen)
+
+
+
+# kurzzeitiger Notbetrieb "kein Hardware-Test"
 
 * :Sollte der Fehler eindeutig auf einen Defekt auf der Platine zurückzuführen sein, das heißt die angeschlossenen Komponenten funktionieren einwandfrei, dann kann die Steuerung im kurzzeitigem Notbetrieb (bis der Service eintrifft) ohne Hardware-Test betrieben werden.
 
     1. Die Steuerung mittels seitlichem Hauptschalter ausschalten.
 
-    2. Die linke untere "Leer"-Taste gedrückt halten, während der Hauptschalter wieder eingeschaltet wird. In der vierten Zeile des Display ́s erscheint die Meldung "keine Hardware-Test". Sobald diese Meldung zu lesen ist kann die Taste losgelassen werden und die Steuerung führt keinen Selbsttest mehr durch (aber nur bis zur nächsten Stromunterbrechung).Weiters müssen die defekten Komponenten im Handbetrieb auf ihre richtige Funktion überprüft werden, um weitere Schäden ausschließen zu können! kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
+    2. Die linke untere "Leer"-Taste gedrückt halten, während der Hauptschalter wieder eingeschaltet wird. In der vierten Zeile des Display ́s erscheint die Meldung "keine Hardware-Test". Sobald diese Meldung zu lesen ist kann die Taste losgelassen werden und die Steuerung führt keinen Selbsttest mehr durch (aber nur bis zur nächsten Stromunterbrechung).Weiters müssen die defekten Komponenten im Handbetrieb auf ihre richtige Funktion überprüft werden, um weitere Schäden ausschließen zu können! 
+    
+# kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
 
-* : Sollte der Fehler nicht behebbar sein, kann bei geschlossenem Rost ein Notbetrieb (bis der Service eintrifft) aktiviert werden.
+* Sollte der Fehler nicht behebbar sein, kann bei geschlossenem Rost ein Notbetrieb (bis der Service eintrifft) aktiviert werden.
 
     1. in Wahlschalterstellung Hand Nr.2 (Störung mit "Enter"quitieren) und mit der + bzw. - Taste kontrollieren das der Rost geschlossen ist.
 
@@ -1570,9 +1702,9 @@ Brandschutzklappe öffnet nicht
     
     Notbetrieb wird beendet und Rostüberwachung ist wieder aktiv.
 
-* keine Maßnahmen erforderlich; tritt diese Meldung sehr häufig auf ist der Elektriker zu verständigen (sehr viele Stromausfälle, schlechte Klemmstelle in der Netzzuleitung, Verbindungen zw. HS und I/O-Platine sowie sämtliche Flachbandkabelverbindungen überprüfen)
 
-    Nach Fehlerbehebung ENTER- Taste drücken !Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich
+
+# **Nach Fehlerbehebung ENTER- Taste drücken ! Bei nicht behebarer Störung ist ein Stückholzbetrieb möglich**
 
 
 ## __Verbrennungsstörung Nr. 0029__
@@ -1599,8 +1731,8 @@ mögliche Ursachen:
     Zündung defekt
 
 
-Um die Ursache festzustellen bzw. beheben zu können, müssen Sie wie folgt vorgehen:
------------------------------------------------------------------------------------
+**Um die Ursache festzustellen bzw. beheben zu können, müssen Sie wie folgt vorgehen:**
+___
 
 1. Aschenlade entnehmen und Kontrollblech einschieben
 
@@ -1612,7 +1744,7 @@ HAND Nr.2 solange die +Taste drücken, bis der Schieberost komplett geöffnet is
     Dann kontrollieren sie,
 ob die Brennkammer mit Pellets überfüllt war, wenn ja, dann weiter mit Punkt "Brennkammer überfüllt".
 
-3. In Wahlschalterstellung HAND Nr.4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
+3. In Wahlschalterstellung HAND Nr. 4 solange die +Taste drücken, bis die Einschubschnecke startet (gleichzeitig öffnet auch der Schieberost) und kontrollieren, ob Pellets gefördert werden.
 
 ## __keine Pelletsförderung__:
 
