@@ -752,8 +752,10 @@ Kein Text in der Anzeige
 
 * GSM-Modul, kein Empfang
 
+    ---
     GSM-Modul konnte SMS nicht senden weil das Guthaben auf der SIM-Karte aufgebraucht ist oder keine Verbindung zum Netzbetreiber hergestellt werden konnte
 
+    ---
     Guthaben der SIM-Karte prüfen und gegebenenfalls aufladen bzw. gesperrte SIM-Karte vom Netzbetreiber freischalten lassen; GSM-Empfang mit Handy vom gleichen Netzbetreiber prüfen und eventuell Antenne besser positionieren bzw. Antenne nach außen verlängern;
 
 ```
@@ -762,8 +764,10 @@ Kein Text in der Anzeige
 
 * GSM-Modul Software falsche Version
 
+    ---
     die Eprom-Version im GSM-Steuermodul und in der Kesselbedieneinheit passen nicht zusammen
 
+    ---
     zusammenpassende Eprom-Versionen einbauen oder GSM-Modul austauschen
 
 ```
@@ -772,8 +776,10 @@ Kein Text in der Anzeige
 
 * Fehler Parametersatz,Parameter prüfen
 
+    ---
     interner Fehler im Parameterspeicher aufgetreten
     
+    ---
     Paramtereinstellungen überprüfen und richtig stellen, bei erneutem Fehler Kesselbedieneinheit austauschen
 
 ```
@@ -782,8 +788,10 @@ Kein Text in der Anzeige
 
 * Übertemperatur Brennstofflager
 
+    ---
     Temperatur im Brennstofflagerraum zu hoch. 
     
+    ---
     beim Ansprechen der Warneinrichtung ist der Brennstofflagerraum auf diverse Erwärmungen zu kontrollieren und gegebenenfalls weitere Maßnahmen zu treffen (Feuerwehr verständigen)
 
 ```
@@ -792,8 +800,10 @@ Kein Text in der Anzeige
 
 * Fühler TÜB Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr. 0020 bis 0031
 
 ```
@@ -802,8 +812,10 @@ Kein Text in der Anzeige
 
 * Fühler TÜB Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
+    ---
     siehe Nr. 0020 bis 0031
 
 ```
@@ -812,9 +824,13 @@ Kein Text in der Anzeige
 
 * Übertemperatur Einschubschnecke
 
+    ---
     Temperatur an der Einschubschnecke zu hoch, weil Kessel oder Rauchrohr verschmutzt ist oder ein Rückbrand erfolgte
     
-    den Kessel und das Rauchrohr auf Verschmutzung überprüfen und gegebenenfalls reinigen; bei einem Rückbrand ist die Dichtheit der Brandschutzklappe zu überprüfen; 
+    ---
+    den Kessel und das Rauchrohr auf Verschmutzung überprüfen und gegebenenfalls reinigen; 
+    
+    bei einem Rückbrand ist die Dichtheit der Brandschutzklappe zu überprüfen; 
     
     **bei HSV70S, 80S, 100S** den Schlauch an der Unterdruckdose abziehen und das Kesselröhrchen mit dem Mund durchblasen bzw. Saugzugventillator überprüfen;
 
@@ -824,8 +840,10 @@ Kein Text in der Anzeige
 
 * Fühler ETÜ Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr. 0020 bis 0031
 
 ```
@@ -834,8 +852,10 @@ Kein Text in der Anzeige
 
 * Fühler ETÜ Unterbrechung
 
+    ---
     Unterbrechung im Fühler oder in der Leitung
 
+    ---
     siehe Nr. 0020 bis 0031
 
 ```
@@ -844,8 +864,10 @@ Kein Text in der Anzeige
 
 * TÜB Fühler in Installateurebene D21 aktivieren
 
+    ---
     TÜB Fühler angeschlossen jedoch nicht parametriert.
 
+    ---
     wird ein TÜB-Fühler angeschlossen ist dieser auch in der Installatuerebene (D21) zu parametrieren;
 
 ```
@@ -854,8 +876,10 @@ Kein Text in der Anzeige
 
 * I/O-Platine falsche Version
 
+    ---
     die eingebaute EPROM-Version und die I/O-Platine sind nicht kompatibel
     
+    ---
     I/O-Platine der Version I/O 24.0 (mit blauem Aufkleber) einbauen
 
 ```
@@ -864,8 +888,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zumHeizkreismodul 1
 
+    ---
     keine Verbindung zum Heizkreismodul 1
 
+    ---
     Adressschalter am Heizkreismodul auf "1" stellen; Busverdrahtung und Netzanschluss am Heizkreismodul 1 prüfen; Heizkreismodul 1 austauschen
 
 ```
@@ -874,8 +900,10 @@ Kein Text in der Anzeige
 
 * ADC-Fehler auf Heizkreismodul 1
 
+    ---
     Temperaturmessung am Heizkreismodul 1
     
+    ---
     Heizkreismodul 1 austauschen
 
 ```
@@ -884,8 +912,10 @@ Kein Text in der Anzeige
 
 * Nulld.-Fehler Heizkreismodul 1
 
+    ---
     Ansteuerung Ausgänge im Heizkreismodul 1 defekt
 
+    ---
     Heizkreismodul 1 austauschen
 
 ```
@@ -894,8 +924,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 3 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -904,8 +936,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 3 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -914,8 +948,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 4 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -924,8 +960,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 4 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -934,8 +972,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 3 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -944,8 +984,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 3 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -954,8 +996,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 4 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -964,8 +1008,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 4 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -974,8 +1020,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK3 Kurzschluss
 
+    ---
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -984,8 +1032,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK3 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr. 0020 bis 0031
     
 ```
@@ -994,8 +1044,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK4 Kurzschluss
 
+    ---
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1004,8 +1056,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK4 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1014,8 +1068,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zumHeizkreismodul 2
 
+    ---
     keine Verbindung zum Heizkreismodul 2
 
+    ---
     Adressschalter am Heizkreismodul auf "2" stellen; Busverdrahtung und Netzanschluss am Heizkreismodul 2 prüfen; Heizkreismodul 2 austauschen
 
 ```
@@ -1024,8 +1080,10 @@ Kein Text in der Anzeige
 
 * ADC-Fehler auf Heizkreismodul 2
 
+    ---
     Temperaturmessung am Heizkreismodul 2 defekt
 
+    ---
     Heizkreismodul 2 austauschen
 
 ```
@@ -1034,8 +1092,10 @@ Kein Text in der Anzeige
 
 * Nulld.-Fehler Heizkreismodul 2
 
+    ---
     Ansteuerung Ausgänge im Heizkreismodul 2 defekt
 
+    ---
     Heizkreismodul 2 austauschen
 
 ```
@@ -1044,8 +1104,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 5 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1054,8 +1116,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 5 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1064,8 +1128,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 6 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1074,8 +1140,10 @@ Kein Text in der Anzeige
 
 * Boilerfühler 6 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1084,8 +1152,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 5 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1094,8 +1164,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 5 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1104,8 +1176,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 6 Kurzschluss
 
+    ---
     Kurzschluss im Fühler oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1114,8 +1188,10 @@ Kein Text in der Anzeige
 
 * Vorlauffühler 6 Unterbrechung
 
+    ---
     Fühler nicht angeschlossen oder Fühler-Unterbrechung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1124,8 +1200,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK5 Kurzschluss
 
+    ---
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1134,8 +1212,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK5 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1144,8 +1224,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK6 Kurzschluss
 
+    ---
     Kurzschluss in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1154,8 +1236,10 @@ Kein Text in der Anzeige
 
 * Fernbedienung HK6 Unterbrechung
 
+    ---
     Unterbrechung in der Fernbedienung oder in der Leitung
 
+    ---
     siehe Nr.0020 bis 0031
 
 ```
@@ -1164,17 +1248,27 @@ Kein Text in der Anzeige
 
 * Software falsche Version
 
+    ---
     Kesselbedieneinheit und dig.Fernbedienungen haben nicht die gleiche Softwareversion
 
+    ---
     Kesselbedieneinheit und digitale Fernbedienungen mit gleicher Softwareversion (gleiche EPROM-Version) ausstatten
 
 ```
 0201
 ```
 
-* kein Kesselmodul od. CAN unterbrochen keine Busverbindung zum Kessel
+* kein Kesselmodul od. CAN unterbrochen 
 
-    keine Kesselbedieneinheit parametriert; Spannungsversorgung am Kessel prüfen; Busverdrahtung prüfen oder digitale Fernbedienung austauschen
+    ---
+    keine Busverbindung zum Kessel
+
+    ---
+    keine Kesselbedieneinheit parametriert; 
+    
+    Spannungsversorgung am Kessel prüfen; 
+    
+    Busverdrahtung prüfen oder digitale Fernbedienung austauschen
 
 ```
 0202
@@ -1182,8 +1276,10 @@ Kein Text in der Anzeige
 
 * gleiche Modulkonfiguration bereits am Bus
 
+    ---
     dig.Fernbedienungen sind auf gleichen Heizkreis eingestellt
 
+    ---
     den Parameter Z2 auf der digitalen Fernbedienung richtig stellen
 
 ```
@@ -1192,8 +1288,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 1 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK1
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1202,8 +1300,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 2 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK2
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1212,8 +1312,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 3 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK3
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1222,8 +1324,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 4 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK4
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1232,8 +1336,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 5 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK5
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1242,8 +1348,10 @@ Kein Text in der Anzeige
 
 * Digitale Fernbedienung 6 nicht angeschlossen
 
+    ---
     keine Verbindung zur digitalen Fernbedienung HK6
 
+    ---
     Parameter Z2 prüfen; Busverdrahtung prüfen; digitale Fernbedienung austauschen
 
 ```
@@ -1252,8 +1360,10 @@ Kein Text in der Anzeige
 
 * Sicherung digitale Eingänge defekt
 
+    ---
     Sicherung F24 defekt, Kurzschluss bei digitalen Eingänge.
 
+    ---
     Kurzschluss durch Elektriker beseitigen: STB, Endschalter Deckel, Endschalter Vergaser, Initiator Ascheaustragung, Endschalter
 
     Brandschutzklappe bzw. Füllstandsmelder; 
@@ -1266,9 +1376,13 @@ Kein Text in der Anzeige
 
 * I/O-Platine Sicherung F23 defekt
 
+    ---
     Sicherung F23 defekt, Kurzschluss oder Überlastung bei Zündgerät, Brandschutzklappe oder Pelletssaugturbine
 
-    Kurzschluss durch Elektriker beseitigen: Zündgerät (Gebläse, Heizung), Brandschutzklappe oder Pelletssaugturbine überprüfen; Sicherung F23 wechseln (siehe Aufkleber rechte Plexiglasabdeckung); sonst Service verständigen;
+    ---
+    Kurzschluss durch Elektriker beseitigen: Zündgerät (Gebläse, Heizung), Brandschutzklappe oder Pelletssaugturbine überprüfen; 
+    
+    Sicherung F23 wechseln (siehe Aufkleber rechte Plexiglasabdeckung); sonst Service verständigen;
 
 ```
 5000..5007 
@@ -1276,6 +1390,10 @@ Kein Text in der Anzeige
 
 * Elektronik
 
+    ---
+    ========
+
+    ---
     Service verständigen; 
     
     linke Hauptstrom-Platine austauschen
@@ -1286,8 +1404,10 @@ Kein Text in der Anzeige
 
 * Hauptstrom-Platine Sicherung F30 defekt
 
+    ---
     Sicherung F30 defekt, Kurzschluss oder Überlast bei Lambda-Sondenheizung
 
+    ---
     Kurzschluss durch Elektriker beseitigen: Lambda-Sondenheizung, Sicherung F30 wechseln (siehe Aufkleber linke Plexiglasabdeckung);
 
     sonst Service verständigen;
@@ -1298,11 +1418,13 @@ Kein Text in der Anzeige
 
 * Phasenfolge Netzzuleitung falsch
 
+    ---
     die Phasen L1/L2/L3 sind in der Reihenfolge vertauscht
 
+    ---
     Elektriker verständigen und Phasenfolge richtig stellen (Phase L2 mit L3 der Netzzuleitung vertauschen); 
         
-    danach muss im Handbetrieb unbedingt die Drehrichtung der Einschubschnecke, Raumaustragungsschnecke sowie Ascheaustragung(en) überprüft werden!
+    **danach muss im Handbetrieb unbedingt die Drehrichtung der Einschubschnecke, Raumaustragungsschnecke sowie Ascheaustragung(en) überprüft werden!**
 
 ```
 5040 oder 5046
@@ -1310,9 +1432,13 @@ Kein Text in der Anzeige
 
 * Netzrelais schaltet nicht
 
+    ---
     L1, L2 und L3 werden für die Versorgung der Drehstrommotorausgänge nicht durchgeschaltet, Netzrelais kann nicht eingeschaltet werden, Hauptstromplatine defekt
 
-    Elektriker verständigen! Verbindungsleitung zwischen rechte I/O- u. linke Hauptstromplatine prüfen (230VAC zwischen Klemme 24 u. 26, linke Platine unterhalb vom Netzrelais). Verbindung zwischen Klemme 24 u. 33 muss vorhanden sein (sonst Netzrelais defekt), sonst Service verständigen, linke Hauptstrom-Platine austauschen.(kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
+    ---
+    Elektriker verständigen! Verbindungsleitung zwischen rechte I/O- u. linke Hauptstromplatine prüfen (230VAC zwischen Klemme 24 u. 26, linke Platine unterhalb vom Netzrelais). Verbindung zwischen Klemme 24 u. 33 muss vorhanden sein (sonst Netzrelais defekt), sonst Service verständigen, linke Hauptstrom-Platine austauschen.
+    
+    (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 5041
@@ -1320,8 +1446,10 @@ Kein Text in der Anzeige
 
 * L2 und L3 fehlen bei der Netzzuleitung
 
+    ---
     Unterspannung bei L2 und L3. Ausfall der Stromversorgung Sicherung im Zählerkasten defekt.
 
+    ---
     Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
 
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
@@ -1332,8 +1460,10 @@ Kein Text in der Anzeige
 
 * Kombination Fehler 5040 u. 5043
 
+    ---
     siehe Fehler 5040 und 5043
 
+    ---
     Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
 
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
@@ -1344,8 +1474,10 @@ Kein Text in der Anzeige
 
 * L3 fehlt bei der Netzzuleitung
 
+    ---
     Unterspannung oder Ausfall von L3 der Netzzuleitung
 
+    ---
     Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
 
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
@@ -1356,6 +1488,7 @@ Kein Text in der Anzeige
 
 * Kombination Fehler 5040 u. 5045
 
+    ---
     siehe Fehler 5040 und 5045
     
 ```
@@ -1364,8 +1497,10 @@ Kein Text in der Anzeige
 
 * L2 fehlt bei der Netzzuleitung
 
+    ---
     Unterspannung oder Ausfall von L2 der Netzzuleitung, Hauptstromplatine defekt
 
+    ---
     Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
 
     ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" Seite 28 unten)
@@ -1393,8 +1528,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F11, F12 und F13 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1403,8 +1540,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F12 und F13 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1413,8 +1552,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F11 u. F13 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1423,8 +1564,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F13 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1433,8 +1576,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F11 und F12 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1443,8 +1588,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F12 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1453,8 +1600,10 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F11 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1463,8 +1612,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F14, F15 und F16 defekt
 
+    ---
     siehe 5145
 ```
 5141
@@ -1472,8 +1623,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F15 und F16 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1482,8 +1635,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F14 u. F16 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1492,8 +1647,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F16 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1502,8 +1659,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F14 und F15 defekt
 
+    ---
     siehe 5145
 
 ```
@@ -1512,14 +1671,18 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F15 defekt
 
+    ---
     sprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen;
     
-    den Stecker des als defekt angezeigten Motors ( auf der HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS - Platine auszutauschen bzw. der Service zu verständigen.
+    den Stecker des als defekt angezeigten Motors ( auf der HS - Platine) mit einem anderen Motor-Stecker tauschen, 
+    
+    kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, 
+    
+    kommt die selbe Störung ist die linke HS - Platine auszutauschen bzw. der Service zu verständigen.
 
-    Netzzuleitung und Absicherung der Netzzuleitung durch Elektriker überprüfen. sonst Service verständigen, linke Hauptstrom-Platine austauschen.
-    ( kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung )
 
 ```
 5146
@@ -1527,8 +1690,10 @@ Kein Text in der Anzeige
 
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F14 defekt
 
+    ---
     siehe 5156
 
 ```
@@ -1537,8 +1702,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F17, F18 und F19 defekt
 
+    ---
     siehe 5156
 ```
 5151
@@ -1546,8 +1713,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F18 und F19
 
+    ---
     siehe 5156
 
 ```
@@ -1556,8 +1725,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F17 u. F19
 
+    ---
     siehe 5156
 
 ```
@@ -1566,8 +1737,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F19 defekt
 
+    ---
     siehe 5156
 
 ```
@@ -1576,8 +1749,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F17 und F18 defekt
 
+    ---
     siehe 5156
 
 ```
@@ -1586,8 +1761,10 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F18 defekt
 
+    ---
     siehe 5156
 
 ```
@@ -1596,11 +1773,17 @@ Kein Text in der Anzeige
 
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Motorkabel oder Sicherung F17 defekt
 
+    ---
     Entsprechende Sicherung überprüfen und eventuell wechseln (siehe Aufkleber) oder Motorkabel überprüfen.
 
-    Den Stecker des als defekt angezeigten Motors (auf der HS-Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
+    Den Stecker des als defekt angezeigten Motors (auf der HS-Platine) mit einem anderen Motor-Stecker tauschen, 
+    
+    kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, 
+    
+    kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
 
     (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
 ```
@@ -1633,11 +1816,19 @@ Kein Text in der Anzeige
 
 * Einschubmotor läuft nicht
 
+    ---
     Sicherungen F11, F12 und F13 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
 
-    entsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber); L1 des Motorkabels überprüfen;Nulleiter am Motor-Sternpunkt bzw. an der Nulleiterschiene anschließen (unbedingt 5-adriges Kabel verwenden!); 
+    ---
+    entsprechende Sicherungen überprüfen und eventuell wechseln (siehe Aufkleber); 
     
-    den Stecker des als defekt angezeigten Motors (auf der linken HS - Platine) mit einem anderen Motor-Stecker tauschen, kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
+    L1 des Motorkabels überprüfen;Nulleiter am Motor-Sternpunkt bzw. an der Nulleiterschiene anschließen (unbedingt 5-adriges Kabel verwenden!); 
+    
+    den Stecker des als defekt angezeigten Motors (auf der linken HS - Platine) mit einem anderen Motor-Stecker tauschen, 
+    
+    kommt eine andere Störung ist der Motor oder die Leitung zu erneuern, 
+    
+    kommt die selbe Störung ist die linke HS-Platine auszutauschen bzw. der Service zu verständigen.
 
     (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung)
 
@@ -1646,8 +1837,10 @@ Kein Text in der Anzeige
 ```
 * Raumaustragungsmotor läuft nicht
 
+    ---
     Sicherungen F14, F15 und F16 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
 
+    ---
     siehe 5230..5237 
 
 ```
@@ -1655,8 +1848,10 @@ Kein Text in der Anzeige
 ```
 * Ascheaustragungsmotor läuft nicht
 
+    ---
     Sicherungen F17, F18 und F19 defekt, L1 des Motoranschlusskabelist nicht angeschlossen, Nulleiter ist nicht mit dem Motor-Sternpunkt verbunden, HS-Platine(Elektronik) defekt
 
+    ---
     siehe 5230..5237 
 
 ```
@@ -1679,6 +1874,10 @@ Kein Text in der Anzeige
 
 * Primärluftgebläse oder Rücklaufanhebepumpe läuft nicht oder läuft dauernd
 
+    ---
+    Kurzschluss bei Primärluftgebläse  oder Rücklaufanhebepumpe, Sicherung F10 defekt oder Verbindung zum Gebläse/zur Pumpe unterbrochen oder HS-Platine defekt
+
+    ---
     Kurzschluss bei Primärluftgebläse oder Rücklaufanhebepumpe entfernen;
 
     Sicherung F10 überprüfen und eventuell wechseln (siehe Aufkleber);
@@ -1694,11 +1893,15 @@ Kein Text in der Anzeige
 
 * Saugzuggebläse läuft nicht oder läuft dauernd (bei HSV 70S, 80S, 100S)
 
+    ---
     Kurzschluss bei Saugzuggebläse oder Sicherung F40 defekt oder Verbindung zum Saugzuggebläse unterbrochen oder HS-Erweiterungsplatine defekt oder Parameter Kesseltyp falsch 
     
+    ---
     bei aufgesteckter HS-Erweiterungsplatine die Sicherung F40 wechseln (siehe Aufkleber) oder Verbindung zum Gebläse herstellen; 
 
-    HS-Erweiterungsplatine tauschen; (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung) bzw. Parameter Z1 (Kesseltyp) überprüfen und richtig stellen;
+    HS-Erweiterungsplatine tauschen; 
+    
+    (kurzzeitiger Notbetrieb möglich, siehe "kein Hardware-Test" am Ende der Störungsbeschreibung) bzw. Parameter Z1 (Kesseltyp) überprüfen und richtig stellen;
 
 ```
 6000
@@ -1706,8 +1909,10 @@ Kein Text in der Anzeige
 
 * Fehler Datenübertragung
 
+    ---
     Fehler in der Software (Treiber)
 
+    ---
     Service verständigen
 
 ```
@@ -1716,8 +1921,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zu allen Platinen defekt
 
+    ---
     Flachbandkabelverbindung oder Platinen defekt
 
+    ---
     Service verständigen; Flachbandkabelverbindung, Bedieneinheit, rechte I/O-Platine (incl. Busconverter für SM-Modul wenn vorhanden) oder linke HS-Platinen (vordere und hintere bei HSV70S-100S) tauschen
 
  
@@ -1727,8 +1934,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zur linken HS-Platine 
 
+    ---
     Sicherung F20 oder linke HS-Platine defekt, oder Flachbandkabelverbindung oder Bedieneinheit defekt
 
+    ---
     ist die Sicherung F20 defekt (grüne Lampe H2 auf linker HS-Platine leuchtet nicht), dann neue Sicherung einsetzen, sonst linke HS-Platine, Flachbandkabel oder Bedieneinheit tauschen;
 
     war die Sicherung F20 defekt bzw. nach HS-Platinentausch sofort die Lambdasondenheizung in Wahlschalter Hand Nr.34 mit Messgerät prüfen dh. die + Taste drücken und zwischen Klemme 16 und 17 die Spannung (Soll 5 - 12 VAC) und die Stromaufnahme (Soll 1,0 - 3 A AC) messen; ist der Wert unter 5 VAC oder über 4 A AC ist die Lambdasonde defekt und muss getauscht werden;
@@ -1741,8 +1950,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zur unteren (teilbestückten) HS-Platine **nur bei HSV70S, 80S, 100S**
 
+    ---
     Flachbandkabelverbindung oder untere (teilbestückten) HS-Platine defekt
 
+    ---
     Service verständigen; untere (teilbestückte) linke HS-Platine austauschen
 
 ```
@@ -1751,8 +1962,10 @@ Kein Text in der Anzeige
 
 * Datenübertragung zur SM-Platine
 
+    ---
     Busconverter Platinen, rechte I/O-Platine oder SM-Platine defekt; Buskabel zum SM-Modul unterbrochen; Stromversorgung SM-Modul unterbrochen
 
+    ---
     Service verständigen; Busconverter Platinen (auf der rechten I/O-Platine oder auf dem SM-Platine) tauschen; Buskabel zum SM-Modul überprüfen;
 
     Stromversorgung des SM-Moduls überprüfen
@@ -1763,8 +1976,10 @@ Kein Text in der Anzeige
 
 * Software-Version rechte I/O-Platine falsch
 
+    ---
     rechte I/O-Platine ist zur verwendeten Software nicht kompatibel
 
+    ---
     Service verständigen, I/O-Platine austauschen
 
 ```
@@ -1773,8 +1988,10 @@ Kein Text in der Anzeige
 
 * Software-Version linke HS-Platine falsch 
 
+    ---
     linke HS-Platine ist zur verwendeten Software nicht kompatibel
 
+    ---
     Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung); 
     
     Service verständigen; HS-Platine austauschen
@@ -1785,8 +2002,10 @@ Kein Text in der Anzeige
 
 * Software-Version der unteren (teilbestückten) HS-Platine falsch **nur bei HSV70S, 80S, 100S**
 
+    ---
     teilbestückte HS-Platine ist zur verwendeten Software nicht kompatibel
 
+    ---
     Service verständigen; teilbestückte HS-Platine austauschen
 
 ```
@@ -1795,8 +2014,10 @@ Kein Text in der Anzeige
 
 * Software-Version SM-Platine falsch
 
+    ---
     SM-Platine ist zur verwendeten Software nicht kompatibel
 
+    ---
     Service verständigen; SM-Platine austauschen
 
 ```
@@ -1805,8 +2026,10 @@ Kein Text in der Anzeige
 
 * L3 erkannt, Kesseltype prüfen
 
+    ---
     an einem oder mehreren Motorabgängen ist die Phase L3 belegt obwohl eine einphasig Anlage parametriert wurde
 
+    ---
     Anlagenkonfiguration überprüfen (Parameter Z1 - einphasige oder dreiphasige Ausführung), bei einphasiger Ausführung darf an der HS-Platine (Klemmen 9,12,15) nichts angeschlossen werden;
 
     Service verständigen; HS-Platine austauschen
@@ -1817,8 +2040,10 @@ Kein Text in der Anzeige
 
 * Elektronik
 
+    ---
     Fehler in der Software (Treiber)
 
+    ---
     Service verständigen
 
 ```
@@ -1827,8 +2052,10 @@ Kein Text in der Anzeige
 
 * Fehlerpuffer initialisiert
 
+    ---
     kein Problem, nur für Protokollzwecke
 
+    ---
     siehe 1000
 
 ```
@@ -1837,13 +2064,15 @@ Kein Text in der Anzeige
 
 * Neustart der Hardware
 
+    ---
     kein Problem, nur für Protokollzwecke
 
+    ---
     keine Maßnahmen erforderlich; tritt diese Meldung sehr häufig auf ist der Elektriker zu verständigen (sehr viele Stromausfälle, schlechte Klemmstelle in der Netzzuleitung, Verbindungen zw. HS und I/O-Platine sowie sämtliche Flachbandkabelverbindungen überprüfen)
 
 
 
-# kurzzeitiger Notbetrieb "kein Hardware-Test"
+# Kurzzeitiger Notbetrieb "kein Hardware-Test"
 
 * :Sollte der Fehler eindeutig auf einen Defekt auf der Platine zurückzuführen sein, das heißt die angeschlossenen Komponenten funktionieren einwandfrei, dann kann die Steuerung im kurzzeitigem Notbetrieb (bis der Service eintrifft) ohne Hardware-Test betrieben werden.
 
@@ -1851,7 +2080,7 @@ Kein Text in der Anzeige
 
     2. Die linke untere "Leer"-Taste gedrückt halten, während der Hauptschalter wieder eingeschaltet wird. In der vierten Zeile des Display ́s erscheint die Meldung "keine Hardware-Test". Sobald diese Meldung zu lesen ist kann die Taste losgelassen werden und die Steuerung führt keinen Selbsttest mehr durch (aber nur bis zur nächsten Stromunterbrechung).Weiters müssen die defekten Komponenten im Handbetrieb auf ihre richtige Funktion überprüft werden, um weitere Schäden ausschließen zu können! 
     
-# kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
+# Kurzzeitiger Notbetrieb "kein Hardware-Test - Initiator" bei HSV70S, 80S, 100S für die Störungen Nr.12 und Nr.46
 
 * Sollte der Fehler nicht behebbar sein, kann bei geschlossenem Rost ein Notbetrieb (bis der Service eintrifft) aktiviert werden.
 
@@ -1859,9 +2088,9 @@ Kein Text in der Anzeige
 
     2. die linke untere "Leer"-Taste kurz drücken ("keine Hardware-Test-Initiator") die Anlage geht auf "Notbetrieb" und führt ab jetzt 48 Stunden keinen Initiatortest und keine Entaschung mehr durch.
 
-    Die Anzeige "Notbetrieb" steht blinkend am Display und zählt von 48 Stunden nach unten. Nach der Reparatur unbedingt Hauptschalter aus- und wieder einschalten  
+    **Die Anzeige "Notbetrieb" steht blinkend am Display und zählt von 48 Stunden nach unten. Nach der Reparatur unbedingt Hauptschalter aus- und wieder einschalten**
     
-    Notbetrieb wird beendet und Rostüberwachung ist wieder aktiv.
+    ***Notbetrieb wird beendet und Rostüberwachung ist wieder aktiv.***
 
 
 
